@@ -7,7 +7,7 @@ using UnityEngine;
 public class NPC : ScriptableObject
 {
 
-    public string NPCname;
+    public string NPCName;
     
     public List<Sprite> NPCSprites;
 
