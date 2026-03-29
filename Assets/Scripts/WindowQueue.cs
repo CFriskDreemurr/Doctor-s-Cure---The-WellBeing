@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class WindowQueue : MonoBehaviour
 {
-    public Queue<GameObject> windowQueue = new Queue<GameObject>();
-    public void AddToQueue(GameObject objectt)
+    public Queue<NPC> windowQueue = new Queue<NPC>();
+    public void AddToQueue(NPC objectt)
     {
         windowQueue.Enqueue(objectt);
     }
@@ -14,10 +14,6 @@ public class WindowQueue : MonoBehaviour
         windowQueue.Dequeue();
     }
 
-    internal void AddToQueue(Func<GameObject> gameObject)
-    {
-        Debug.Log("huh");
-        Debug.Log(gameObject);
-    }
+    
 }
 

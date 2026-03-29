@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class NPCManager : MonoBehaviour
@@ -11,22 +12,52 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private GameObject infirmarySpot3;
     [SerializeField] private GameObject operatingSpot;
     [SerializeField] private WindowQueue windowQueuee;
+    private SpriteRenderer evaluationSprite;
+    private SpriteRenderer windowSprite1;
+    private SpriteRenderer windowSprite2;
+    private SpriteRenderer windowSprite3;
+
 
 
     private void Start()
     {
-        SpriteRenderer windowSprite1 = windowSpot1.GetComponent<SpriteRenderer>();
-        SpriteRenderer windowSprite2 = windowSpot2.GetComponent<SpriteRenderer>();
-        SpriteRenderer windowSprite3 = windowSpot3.GetComponent<SpriteRenderer>();
-        SpriteRenderer evaluationSprite = evaluationspot.GetComponent<SpriteRenderer>();
+        windowSprite1 = windowSpot1.GetComponent<SpriteRenderer>();
+        windowSprite2 = windowSpot2.GetComponent<SpriteRenderer>();
+        windowSprite3 = windowSpot3.GetComponent<SpriteRenderer>();
+        evaluationSprite = evaluationSpot.GetComponent<SpriteRenderer>();
     }
     public void WindowToEvaluation()
     {
-        GameObject objectToMove = windowQueuee.windowQueue.Peek();
-        if (objectToMove != null)
+
+        if (windowQueuee.windowQueue.Count !=0)
         {
-            GameObject[] queueArray = windowQueuee.windowQueue.ToArray();
-            
+            NPC[] queueArray = windowQueuee.windowQueue.ToArray();
+            evaluationSprite.sprite = queueArray[0].NPCSprites[1];
+            if (queueArray.Length > 1)
+            {
+                windowSprite1.sprite = queueArray[1].NPCSprites[0];
+            }
+            else
+            {
+                windowSprite1.sprite = null;
+            }
+            if (queueArray.Length > 2)
+            {
+                windowSprite2.sprite = queueArray[2].NPCSprites[0];
+            }
+            else
+            {
+                windowSprite2.sprite = null;
+            }
+            if (queueArray.Length > 3)
+            {
+                windowSprite3.sprite = queueArray[3].NPCSprites[0];
+            }
+            else
+            {
+                windowSprite3.sprite = null;
+            }
+            windowQueuee.MoveQueue();
         }
     }
 
