@@ -62,10 +62,6 @@ public class NPCManager : MonoBehaviour
     }
     public void NewInQueue(NPC newNPC)
     {
-        if (windowSprite1 == null) Debug.LogWarning("windowSprite1 is null! Check GetComponent or Awake/Start order.");
-        if (windowSprite2 == null) Debug.LogWarning("windowSprite2 is null! Check GetComponent or Awake/Start order.");
-        if (newNPC == null) Debug.LogWarning("The NPC passed into this method is null!");
-        if (newNPC != null && newNPC.NPCSprites == null) Debug.LogWarning("The NPC's NPCSprites array is null!");
         if (windowSprite2.sprite == null)
         {
             if (windowSprite1.sprite == null)

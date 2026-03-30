@@ -370,7 +370,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -709703514, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
+  m_Sprite: {fileID: -992569997, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -548,6 +548,9 @@ MonoBehaviour:
   day1Queue: {fileID: 11400000, guid: e7a97e3b9433d784db09098d5bf64484, type: 2}
   day2Queue: {fileID: 11400000, guid: 9042e04db3a49a249bbd8cba95d8d586, type: 2}
   daQueue: {fileID: 258414822}
+  windowSpot1: {fileID: 1588727772}
+  windowSpot2: {fileID: 1514557069}
+  windowSpot3: {fileID: 406000836}
 --- !u!1 &621484082
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,10 +690,6 @@ MonoBehaviour:
   windowSpot2: {fileID: 1514557069}
   windowSpot3: {fileID: 406000836}
   evaluationSpot: {fileID: 1353373719}
-  infirmarySpot: {fileID: 0}
-  infirmarySpot2: {fileID: 0}
-  infirmarySpot3: {fileID: 0}
-  operatingSpot: {fileID: 0}
   windowQueuee: {fileID: 258414822}
 --- !u!1 &797096040
 GameObject:
@@ -1310,7 +1309,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -854478602, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
+  m_Sprite: {fileID: -992569997, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1403,7 +1402,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7024648501981196136, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
+  m_Sprite: {fileID: -992569997, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
