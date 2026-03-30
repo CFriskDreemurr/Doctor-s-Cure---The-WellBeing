@@ -7,10 +7,10 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private GameObject windowSpot2;
     [SerializeField] private GameObject windowSpot3;
     [SerializeField] private GameObject evaluationSpot;
-    [SerializeField] private GameObject infirmarySpot;
+    /*[SerializeField] private GameObject infirmarySpot;
     [SerializeField] private GameObject infirmarySpot2;
     [SerializeField] private GameObject infirmarySpot3;
-    [SerializeField] private GameObject operatingSpot;
+    [SerializeField] private GameObject operatingSpot;*/
     [SerializeField] private WindowQueue windowQueuee;
     private SpriteRenderer evaluationSprite;
     private SpriteRenderer windowSprite1;
@@ -19,7 +19,7 @@ public class NPCManager : MonoBehaviour
 
 
 
-    private void Start()
+    private void Awake()
     {
         windowSprite1 = windowSpot1.GetComponent<SpriteRenderer>();
         windowSprite2 = windowSpot2.GetComponent<SpriteRenderer>();
@@ -58,6 +58,29 @@ public class NPCManager : MonoBehaviour
                 windowSprite3.sprite = null;
             }
             windowQueuee.MoveQueue();
+        }
+    }
+    public void NewInQueue(NPC newNPC)
+    {
+        if (windowSprite1 == null) Debug.LogWarning("windowSprite1 is null! Check GetComponent or Awake/Start order.");
+        if (windowSprite2 == null) Debug.LogWarning("windowSprite2 is null! Check GetComponent or Awake/Start order.");
+        if (newNPC == null) Debug.LogWarning("The NPC passed into this method is null!");
+        if (newNPC != null && newNPC.NPCSprites == null) Debug.LogWarning("The NPC's NPCSprites array is null!");
+        if (windowSprite2.sprite == null)
+        {
+            if (windowSprite1.sprite == null)
+            {
+                windowSprite1.sprite = newNPC.NPCSprites[0];
+            }
+            else
+            {
+                windowSprite2.sprite = newNPC.NPCSprites[0];
+            }
+            
+        }
+        else
+        {
+            windowSprite3.sprite = newNPC.NPCSprites[0];
         }
     }
 
