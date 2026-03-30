@@ -139,19 +139,19 @@ public class NPCManager : MonoBehaviour
         if (inOperating == null)
         {
             bedNumber = bedNr;
-            if (bedNumber == 1)
+            if (bedNumber == 1 && inBed1!= null)
             {
                 inOperating = inBed1;
                 infirmarySprite1.sprite = bedInUse;
                 operatingSprite.sprite = inOperating.NPCSprites[3];
             }
-            else if (bedNumber == 2)
+            else if (bedNumber == 2 && inBed2 != null)
             {
                 inOperating = inBed2;
                 infirmarySprite2.sprite = bedInUse;
                 operatingSprite.sprite = inOperating.NPCSprites[3];
             }
-            else if (bedNumber == 3)
+            else if (bedNumber == 3 && inBed3 != null)
             {
                 inOperating = inBed3;
                 infirmarySprite3.sprite = bedInUse;
@@ -172,18 +172,21 @@ public class NPCManager : MonoBehaviour
                 inBed1 = inOperating;
                 inOperating = null;
                 infirmarySprite1.sprite = inBed1.NPCSprites[2];
+                operatingSprite.sprite = null;
             }
             if (bedNumber == 2)
             {
                 inBed2 = inOperating;
                 inOperating = null;
                 infirmarySprite2.sprite = inBed2.NPCSprites[2];
+                operatingSprite.sprite = null;
             }
             if (bedNumber == 3)
             {
                 inBed3 = inOperating;
                 inOperating = null;
                 infirmarySprite3.sprite = inBed3.NPCSprites[2];
+                operatingSprite.sprite = null;
             }
         }
     }
@@ -196,21 +199,21 @@ public class NPCManager : MonoBehaviour
                 inOperating = null;
                 inBed1 = null;
                 operatingSprite.sprite = null;
-                infirmarySprite1 = null;
+                infirmarySprite1.sprite = null;
             }
             if (bedNumber == 2)
             {
                 inOperating = null;
                 inBed2 = null;
                 operatingSprite.sprite = null;
-                infirmarySprite2 = null;
+                infirmarySprite2.sprite = null;
             }
             if (bedNumber == 3)
             {
                 inOperating = null;
                 inBed3 = null;
                 operatingSprite.sprite = null;
-                infirmarySprite3 = null;
+                infirmarySprite3.sprite = null;
             }
         }
     }
