@@ -730,10 +730,7 @@ MonoBehaviour:
   day1Queue: {fileID: 11400000, guid: e7a97e3b9433d784db09098d5bf64484, type: 2}
   day2Queue: {fileID: 11400000, guid: 9042e04db3a49a249bbd8cba95d8d586, type: 2}
   daQueue: {fileID: 258414822}
-  windowSpot1: {fileID: 1588727772}
-  windowSpot2: {fileID: 1514557069}
-  windowSpot3: {fileID: 406000836}
-  nrOfCycles: 2
+  nrOfCycles: 4
   cycleLenght: 2
 --- !u!1 &762724006
 GameObject:
