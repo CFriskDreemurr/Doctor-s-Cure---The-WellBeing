@@ -12,6 +12,7 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private GameObject infirmarySpot3;
     [SerializeField] private GameObject operatingSpot;
     [SerializeField] private WindowQueue windowQueuee;
+    [SerializeField] private GameObject dialogueCanvas;
     private SpriteRenderer evaluationSprite;
     private SpriteRenderer windowSprite1;
     private SpriteRenderer windowSprite2;
@@ -28,6 +29,8 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private Sprite bedInUse;
     private int bedNumber;
     private NPC temporary;
+    public NPC inQueue;
+    
 
 
 
@@ -43,6 +46,11 @@ public class NPCManager : MonoBehaviour
         evaluationSprite = evaluationSpot.GetComponent<SpriteRenderer>();
         operatingSprite = operatingSpot.GetComponent<SpriteRenderer>();
     }
+
+    public void StartDialogue()
+    {
+        dialogueCanvas.SetActive(true);
+    }
     public void NewInQueue(NPC newNPC)
     {
         if (windowSprite2.sprite == null)
@@ -50,6 +58,7 @@ public class NPCManager : MonoBehaviour
             if (windowSprite1.sprite == null)
             {
                 windowSprite1.sprite = newNPC.NPCSprites[0];
+                inQueue = newNPC;
             }
             else
             {
@@ -62,6 +71,36 @@ public class NPCManager : MonoBehaviour
             windowSprite3.sprite = newNPC.NPCSprites[0];
         }
     }
+    public void WindowGoAway()
+    {
+        NPC[] queueArray = windowQueuee.windowQueue.ToArray();
+        if (queueArray.Length > 1)
+        {
+            windowSprite1.sprite = queueArray[1].NPCSprites[0];
+            inQueue = queueArray[1];
+        }
+        else
+        {
+            windowSprite1.sprite = null;
+        }
+        if (queueArray.Length > 2)
+        {
+            windowSprite2.sprite = queueArray[2].NPCSprites[0];
+        }
+        else
+        {
+            windowSprite2.sprite = null;
+        }
+        if (queueArray.Length > 3)
+        {
+            windowSprite3.sprite = queueArray[3].NPCSprites[0];
+        }
+        else
+        {
+            windowSprite3.sprite = null;
+        }
+        windowQueuee.MoveQueue();
+    }
     public void WindowToEvaluation()
     {
 
@@ -72,6 +111,7 @@ public class NPCManager : MonoBehaviour
             if (queueArray.Length > 1)
             {
                 windowSprite1.sprite = queueArray[1].NPCSprites[0];
+                inQueue = queueArray[1];
             }
             else
             {
