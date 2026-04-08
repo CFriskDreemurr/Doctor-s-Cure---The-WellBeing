@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a407ee90f9b7498498ad0a58ba00dfc2, type: 3}
   m_Name: DonD1Start 1
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  text: 'hewwo 2: electric boogaloo'
-  dialogueL: 0
+  text: Yes, hello Doctor!
+  dialogueL: 1
   dialogueR: 2
-  optionL: meow
-  optionR: :3
+  optionL: Hello
+  optionR: Ok, tell me what's wrong
   goAwayL: 0
   goAwayR: 0
   goInL: 0

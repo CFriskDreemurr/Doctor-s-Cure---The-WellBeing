@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a407ee90f9b7498498ad0a58ba00dfc2, type: 3}
   m_Name: DonD1Start
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  text: hewwo :3
+  text: Hello! It's a me, Don Pedrillo. I would like to require your assisstance
+    Doctor.
   dialogueL: 1
-  dialogueR: 1
-  optionL: meow
-  optionR: :3
+  dialogueR: 2
+  optionL: Umm..hello?
+  optionR: What's going on?
   goAwayL: 0
   goAwayR: 0
   goInL: 0

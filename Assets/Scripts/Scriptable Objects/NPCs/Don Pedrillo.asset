@@ -21,5 +21,13 @@ MonoBehaviour:
   dialogueList:
   - {fileID: 11400000, guid: 692895fcf6f3f184eb99287eeb31ab2f, type: 2}
   - {fileID: 11400000, guid: c490bdfa0c293ca48b2d0e62f5f51ef2, type: 2}
-  - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  - {fileID: 11400000, guid: 196511d4e185f484f831ee53bae1ea5e, type: 2}
+  - {fileID: 11400000, guid: 590925d0e5c08194dae7305afb18d82c, type: 2}
+  - {fileID: 11400000, guid: 0ba400412e181ed47a9bb0c4eb38e6aa, type: 2}
+  - {fileID: 11400000, guid: f0485638fa2948147baaff6b6f9ec999, type: 2}
+  - {fileID: 11400000, guid: e1426147ba19c5843831ab59dfdc183b, type: 2}
+  - {fileID: 11400000, guid: af87abc747cce4047ae884a9298d8506, type: 2}
+  - {fileID: 11400000, guid: 3a709e2426bffda488f930792398d1f7, type: 2}
+  - {fileID: 11400000, guid: 9e64d9ddea212a248b46dd339adf64ec, type: 2}
+  - {fileID: 11400000, guid: d01bda511a650ab40a058191cc7313fa, type: 2}
   currentDialogue: {fileID: 11400000, guid: 692895fcf6f3f184eb99287eeb31ab2f, type: 2}

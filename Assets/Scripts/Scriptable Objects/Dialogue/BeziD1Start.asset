@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a407ee90f9b7498498ad0a58ba00dfc2, type: 3}
-  m_Name: DonD1Start 2
+  m_Name: BeziD1Start
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  text: I'm a sick Doctor.
-  dialogueL: 3
-  dialogueR: 8
-  optionL: ...
-  optionR: How are you sick?
+  text: I have a bomb!
+  dialogueL: 4
+  dialogueR: 1
+  optionL: Ok.
+  optionR: PLEASE DON'T KILL ME!
   goAwayL: 0
   goAwayR: 0
   goInL: 0
