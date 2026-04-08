@@ -3414,6 +3414,7 @@ MonoBehaviour:
   DialogueText: {fileID: 695072651}
   buttonLText: {fileID: 228795161}
   buttonRText: {fileID: 1233614683}
+  progress: {fileID: 11400000, guid: 8d0aa6c5d151ec447af0dc1a1fd4c040, type: 2}
   currentNPC: {fileID: 0}
   currentDialogue: {fileID: 0}
 --- !u!1 &1757971510
