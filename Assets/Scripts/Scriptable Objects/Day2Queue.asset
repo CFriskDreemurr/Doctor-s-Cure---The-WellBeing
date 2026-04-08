@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48597c65c3c57f74c83ca535cbc6006b, type: 3}
   m_Name: Day2Queue
   m_EditorClassIdentifier: Assembly-CSharp::DayQueue
+  dailyQueue:
+  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}
+  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}
+  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}

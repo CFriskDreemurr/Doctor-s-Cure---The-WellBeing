@@ -13,6 +13,8 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private GameObject operatingSpot;
     [SerializeField] private WindowQueue windowQueuee;
     [SerializeField] private GameObject dialogueCanvas;
+    [SerializeField] private GameObject endOfDayButton;
+    [SerializeField] private GameObject endOfDayCanvas;
     private SpriteRenderer evaluationSprite;
     private SpriteRenderer windowSprite1;
     private SpriteRenderer windowSprite2;
@@ -31,6 +33,7 @@ public class NPCManager : MonoBehaviour
     private NPC temporary;
     public NPC inQueue;
     
+    
 
 
 
@@ -46,7 +49,28 @@ public class NPCManager : MonoBehaviour
         evaluationSprite = evaluationSpot.GetComponent<SpriteRenderer>();
         operatingSprite = operatingSpot.GetComponent<SpriteRenderer>();
     }
+    public void Evening()
+    {
+        windowQueuee.isEvening = true;
+        if (inQueue != null)
+        {
+            windowQueuee.ClearQueue();
+            windowQueuee.SpecialAdd(inQueue);
+            windowSprite2.sprite = null;
+            windowSprite3.sprite = null;
+        }
+        endOfDayButton.gameObject.SetActive(true);
 
+    }
+    public void EndDay()
+    {
+        endOfDayButton.gameObject.SetActive(false);
+        inQueue = null;
+        windowQueuee.ClearQueue();
+        windowQueuee.isEvening = false;
+        endOfDayCanvas.gameObject.SetActive(true);
+        Debug.Log("Da Day Haths Ended.");
+    }
     public void StartDialogue()
     {
         dialogueCanvas.SetActive(true);
@@ -82,6 +106,7 @@ public class NPCManager : MonoBehaviour
         else
         {
             windowSprite1.sprite = null;
+            inQueue = null;
         }
         if (queueArray.Length > 2)
         {
@@ -116,6 +141,7 @@ public class NPCManager : MonoBehaviour
             else
             {
                 windowSprite1.sprite = null;
+                inQueue = null;
             }
             if (queueArray.Length > 2)
             {

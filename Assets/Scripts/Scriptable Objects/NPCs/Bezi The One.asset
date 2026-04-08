@@ -18,3 +18,6 @@ MonoBehaviour:
   - {fileID: -2132607564, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 1985077675, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 1510582204, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
+  dialogueList:
+  - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}

@@ -1,27 +1,34 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
 {
     private DayQueue todayQueue;
-    [SerializeField] private DayQueue day1Queue;
-    [SerializeField] private DayQueue day2Queue;
+    public List<DayQueue> queueList;
     [SerializeField] private WindowQueue daQueue;
     [SerializeField] private int nrOfCycles;
     [SerializeField] private float cycleLenght;
+    [SerializeField] private NPCManager npcManager;
+    [SerializeField] private GameObject endDayCanvas;
     private int daCounter;
+    private int dayNr = 0;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        todayQueue = day1Queue;
         StartDay();
         
     }
     public void StartDay()
     {
+        dayNr += 1;
+        todayQueue = queueList[dayNr - 1];
+        endDayCanvas.SetActive(false);
+        daQueue.ClearQueue();
         daQueue.AddToQueue(todayQueue.dailyQueue[0]);
         daQueue.AddToQueue(todayQueue.dailyQueue[1]);
         daQueue.AddToQueue(todayQueue.dailyQueue[2]);
@@ -29,10 +36,7 @@ public class TimeManager : MonoBehaviour
         StartCoroutine(DayCycle());
 
     }
-    public void EndDay()
-    {
-        Debug.Log("Da Day Haths Ended.");
-    }
+
     IEnumerator DayCycle()
     {
         for (int i = 0; i < nrOfCycles; i++)
@@ -48,6 +52,7 @@ public class TimeManager : MonoBehaviour
             }
                 daCounter += 1;
         }
-        EndDay();
+        Debug.Log("Da Evening Haths Came.");
+        npcManager.Evening();
     }
 }
