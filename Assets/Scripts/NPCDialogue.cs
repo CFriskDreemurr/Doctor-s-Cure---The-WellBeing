@@ -12,4 +12,8 @@ public class NPCDialogue : ScriptableObject
     public bool goAwayR;
     public bool goInL;
     public bool goInR;
+    public float sickL;
+    public float sickR;
+    public float susL;
+    public float susR;
 }
