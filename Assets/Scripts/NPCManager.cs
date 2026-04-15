@@ -68,6 +68,7 @@ public class NPCManager : MonoBehaviour
         windowQueuee.ClearQueue();
         windowQueuee.isEvening = false;
         endOfDayCanvas.gameObject.SetActive(true);
+        windowSprite1.sprite = null;
         Debug.Log("Da Day Haths Ended.");
     }
     public void StartDialogue()
