@@ -5353,6 +5353,96 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1287903066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287903067}
+  - component: {fileID: 1287903068}
+  - component: {fileID: 1287903069}
+  m_Layer: 0
+  m_Name: MusicManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287903067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287903066}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287903068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287903066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2077975492
+      Data2: 1156318505
+      Data3: 1361895317
+      Data4: -217561786
+    Path: event:/ambient
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1287903069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287903066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d5ae55664f3b74b90cfedb9585dfff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManagerAudio
+  clickSound:
+    Guid:
+      Data1: -2009919266
+      Data2: 1309206957
+      Data3: 536326538
+      Data4: -618549391
+    Path: event:/click
+  hoverSound:
+    Guid:
+      Data1: -2009919266
+      Data2: 1309206957
+      Data3: 536326538
+      Data4: -618549391
+    Path: event:/click
 --- !u!1 &1353373719
 GameObject:
   m_ObjectHideFlags: 0
@@ -6940,9 +7030,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1850368202}
   - component: {fileID: 1850368201}
-  - component: {fileID: 1850368200}
   - component: {fileID: 1850368203}
   - component: {fileID: 1850368204}
+  - component: {fileID: 1850368205}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6950,14 +7040,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1850368200
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850368199}
-  m_Enabled: 1
 --- !u!20 &1850368201
 Camera:
   m_ObjectHideFlags: 0
@@ -7082,6 +7164,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9c697398937e9448b6310fc99c7785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraScreenTransition
+--- !u!114 &1850368205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850368199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioListener
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1886887746
 GameObject:
   m_ObjectHideFlags: 0
@@ -8370,3 +8466,4 @@ SceneRoots:
   - {fileID: 1953334792}
   - {fileID: 1155774764}
   - {fileID: 803492616}
+  - {fileID: 1287903067}

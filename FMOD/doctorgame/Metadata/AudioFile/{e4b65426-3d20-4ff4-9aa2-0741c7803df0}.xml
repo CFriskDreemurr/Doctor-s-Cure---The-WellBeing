@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e4b65426-3d20-4ff4-9aa2-0741c7803df0}">
+		<property name="assetPath">
+			<value>669474__cjspellsfish__plastic-grab-2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.34829931972789113</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99e97657-56b9-4a0c-92b2-9b5e06f5ffd8}</destination>
+		</relationship>
+	</object>
+</objects>
