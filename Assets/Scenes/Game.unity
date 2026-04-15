@@ -906,6 +906,7 @@ GameObject:
   - component: {fileID: 206312062}
   - component: {fileID: 206312061}
   - component: {fileID: 206312060}
+  - component: {fileID: 206312063}
   m_Layer: 5
   m_Name: Ill2
   m_TagString: Untagged
@@ -1017,6 +1018,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206312058}
   m_CullTransparentMesh: 1
+--- !u!114 &206312063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206312058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 1197629816}
+  cureName: {fileID: 1232656045}
 --- !u!1 &228795159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +1932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Empty
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2078,7 +2094,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 542302607}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1155774765}
+        m_TargetAssemblyTypeName: JournalManager, Assembly-CSharp
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &542302607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,6 +2157,7 @@ GameObject:
   - component: {fileID: 614547187}
   - component: {fileID: 614547186}
   - component: {fileID: 614547185}
+  - component: {fileID: 614547188}
   m_Layer: 5
   m_Name: Ill5
   m_TagString: Untagged
@@ -2240,6 +2269,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614547183}
   m_CullTransparentMesh: 1
+--- !u!114 &614547188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614547183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 22396016}
+  cureName: {fileID: 1886887748}
 --- !u!1 &633760188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,6 +2766,7 @@ GameObject:
   - component: {fileID: 776618854}
   - component: {fileID: 776618853}
   - component: {fileID: 776618852}
+  - component: {fileID: 776618855}
   m_Layer: 5
   m_Name: Ill3
   m_TagString: Untagged
@@ -2833,6 +2878,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776618850}
   m_CullTransparentMesh: 1
+--- !u!114 &776618855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776618850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 1541416076}
+  cureName: {fileID: 1103632410}
 --- !u!1 &797096040
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3381,7 @@ GameObject:
   - component: {fileID: 1039800581}
   - component: {fileID: 1039800580}
   - component: {fileID: 1039800579}
+  - component: {fileID: 1039800582}
   m_Layer: 5
   m_Name: Ill1
   m_TagString: Untagged
@@ -3444,6 +3505,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039800577}
   m_CullTransparentMesh: 1
+--- !u!114 &1039800582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039800577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 495377456}
+  cureName: {fileID: 682318989}
 --- !u!1 &1080195594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,6 +3811,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d1351146eaad74fab92653ffca899e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JournalManager
+  illnessList: {fileID: 11400000, guid: 23d7bacefbc177e4ea0f62ee9de44435, type: 2}
+  slot1: {fileID: 1039800582}
+  slot2: {fileID: 206312063}
+  slot3: {fileID: 776618855}
+  slot4: {fileID: 1635949500}
+  slot5: {fileID: 614547188}
+  slot6: {fileID: 1976177533}
 --- !u!1 &1158179073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4920,7 +5003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Meow
+  m_text: Find a new illness :3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6182,6 +6265,7 @@ GameObject:
   - component: {fileID: 1635949499}
   - component: {fileID: 1635949498}
   - component: {fileID: 1635949497}
+  - component: {fileID: 1635949500}
   m_Layer: 5
   m_Name: Ill4
   m_TagString: Untagged
@@ -6293,6 +6377,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635949495}
   m_CullTransparentMesh: 1
+--- !u!114 &1635949500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635949495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 19155113}
+  cureName: {fileID: 163915244}
 --- !u!1 &1659677348
 GameObject:
   m_ObjectHideFlags: 0
@@ -7408,6 +7507,7 @@ GameObject:
   - component: {fileID: 1976177532}
   - component: {fileID: 1976177531}
   - component: {fileID: 1976177530}
+  - component: {fileID: 1976177533}
   m_Layer: 5
   m_Name: Ill6
   m_TagString: Untagged
@@ -7519,6 +7619,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976177528}
   m_CullTransparentMesh: 1
+--- !u!114 &1976177533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976177528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a86289fb3f64414dbc20d3aedf53371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IllnessButton
+  currentIllness: {fileID: 0}
+  illnessName: {fileID: 538474585}
+  cureName: {fileID: 1244258859}
 --- !u!1 &2015509081
 GameObject:
   m_ObjectHideFlags: 0

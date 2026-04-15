@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb775bb92459ac94c8cd68dc1bc7c71f, type: 3}
   m_Name: IllnessList
   m_EditorClassIdentifier: Assembly-CSharp::IllnessList
-  illnessList: []
+  illnessList:
+  - {fileID: 11400000, guid: 71ca671557c15f74faec0c9c1686ade0, type: 2}
+  - {fileID: 11400000, guid: c9ca38007e153df40b25c8593fd03be4, type: 2}
+  - {fileID: 11400000, guid: f9a15f745802c2940984a4d9aff7572a, type: 2}
+  - {fileID: 11400000, guid: 8d262f8184eb31a449217a42174fccd5, type: 2}
+  - {fileID: 11400000, guid: 46180c185225db343a3b427060b88192, type: 2}
