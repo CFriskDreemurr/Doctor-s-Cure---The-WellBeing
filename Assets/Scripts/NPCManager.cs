@@ -14,6 +14,7 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private GameObject dialogueCanvas;
     [SerializeField] private GameObject endOfDayButton;
     [SerializeField] private GameObject endOfDayCanvas;
+    [SerializeField] private GameObject journalCanvas;
     private SpriteRenderer evaluationSprite;
     private SpriteRenderer windowSprite1;
     private SpriteRenderer windowSprite2;
@@ -47,6 +48,10 @@ public class NPCManager : MonoBehaviour
         infirmarySprite3 = infirmarySpot3.GetComponent<SpriteRenderer>();
         evaluationSprite = evaluationSpot.GetComponent<SpriteRenderer>();
         operatingSprite = operatingSpot.GetComponent<SpriteRenderer>();
+    }
+    public void OpenJournal()
+    {
+        journalCanvas.SetActive(true);
     }
     public void Evening()
     {
