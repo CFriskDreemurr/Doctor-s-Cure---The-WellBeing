@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 202023908}
   - component: {fileID: 202023911}
   - component: {fileID: 202023909}
-  - component: {fileID: 202023912}
+  - component: {fileID: 202023913}
   m_Layer: 0
   m_Name: JournalButton
   m_TagString: Untagged
@@ -881,7 +881,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &202023912
+--- !u!114 &202023913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -890,10 +890,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 202023907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e05ecfbd50c4fbc409ff260696d4d20c, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::JournalButton
-  manager: {fileID: 762724008}
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: OpenJournal
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &206312058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,11 +1605,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 406000836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a0c75fb83cb4ab4c9d03a0db44d45a2, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::newInQueueTest
-  queue: {fileID: 258414822}
-  target: {fileID: 11400000, guid: 632c3ed8dba023b4587715c21eeda0ba, type: 2}
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 258414822}
+          m_TargetAssemblyTypeName: WindowQueue, Assembly-CSharp
+          m_MethodName: AddToQueue
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 632c3ed8dba023b4587715c21eeda0ba, type: 2}
+            m_ObjectArgumentAssemblyTypeName: NPC, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &479214046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,7 +1903,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9042e04db3a49a249bbd8cba95d8d586, type: 2}
   daQueue: {fileID: 258414822}
   nrOfCycles: 4
-  cycleLenght: 1
+  cycleLenght: 60
   npcManager: {fileID: 762724008}
   endDayCanvas: {fileID: 1953334787}
 --- !u!1 &538474583
@@ -3212,11 +3243,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 862518373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a097f33aeea9edd47a56993d1d5b3d22, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InfirmaryBed
-  manager: {fileID: 762724008}
-  bedNr: 2
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: InfrimaryToOperating
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1008178387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,8 +3273,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1008178389}
   - component: {fileID: 1008178388}
-  - component: {fileID: 1008178390}
   - component: {fileID: 1008178391}
+  - component: {fileID: 1008178392}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -3310,19 +3356,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1008178390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008178387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9affda70c3d4ab04e9e10e64315cffc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OperatingOut
-  manager: {fileID: 762724008}
 --- !u!61 &1008178391
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3369,6 +3402,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1008178392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008178387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: OperatingOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1039800577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3707,7 +3769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1155774761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3721,7 +3783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
   m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  m_BlockingObjects: 3
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -3770,7 +3832,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &1155774764
 RectTransform:
@@ -3784,6 +3846,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2051649040}
   - {fileID: 189950169}
   - {fileID: 542302605}
   - {fileID: 1039800578}
@@ -5501,10 +5564,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1353373719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d29f1dc3c265ac479176ad1ac68dc2b, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EvauateSpot
-  manager: {fileID: 762724008}
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: EvaluationToInfirmary
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1385501627
 GameObject:
   m_ObjectHideFlags: 0
@@ -5653,11 +5732,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385501627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a097f33aeea9edd47a56993d1d5b3d22, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InfirmaryBed
-  manager: {fileID: 762724008}
-  bedNr: 3
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: InfrimaryToOperating
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1387472880
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,7 +6206,7 @@ GameObject:
   - component: {fileID: 1588727774}
   - component: {fileID: 1588727773}
   - component: {fileID: 1588727775}
-  - component: {fileID: 1588727776}
+  - component: {fileID: 1588727777}
   m_Layer: 0
   m_Name: WindowSpot1
   m_TagString: Untagged
@@ -6240,7 +6334,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1588727776
+--- !u!114 &1588727777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6249,10 +6343,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1588727772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adba7e7fed8ed9f439378f271f252db0, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WindowCustomer
-  manager: {fileID: 762724008}
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: StartDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1635949495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6677,11 +6787,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1666002176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a097f33aeea9edd47a56993d1d5b3d22, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InfirmaryBed
-  manager: {fileID: 762724008}
-  bedNr: 1
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: InfrimaryToOperating
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1670066044
 GameObject:
   m_ObjectHideFlags: 0
@@ -6943,6 +7068,7 @@ GameObject:
   - component: {fileID: 1850368200}
   - component: {fileID: 1850368203}
   - component: {fileID: 1850368204}
+  - component: {fileID: 1850368205}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7082,6 +7208,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9c697398937e9448b6310fc99c7785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraScreenTransition
+--- !u!114 &1850368205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850368199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.Physics2DRaycaster
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1886887746
 GameObject:
   m_ObjectHideFlags: 0
@@ -7229,8 +7371,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1911363750}
   - component: {fileID: 1911363749}
-  - component: {fileID: 1911363751}
   - component: {fileID: 1911363752}
+  - component: {fileID: 1911363753}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -7312,19 +7454,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1911363751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911363748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6167736a9f7ee3845929ddc1c0f8f617, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OperatingBack
-  manager: {fileID: 762724008}
 --- !u!61 &1911363752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7371,6 +7500,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1911363753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911363748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: OperatingToInfirmary
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1953334787
 GameObject:
   m_ObjectHideFlags: 0
@@ -7857,8 +8015,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2025598933}
   - component: {fileID: 2025598934}
-  - component: {fileID: 2025598935}
   - component: {fileID: 2025598936}
+  - component: {fileID: 2025598937}
   m_Layer: 0
   m_Name: EndDayButton
   m_TagString: Untagged
@@ -7940,19 +8098,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2025598935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025598932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dd1d8c898852574f905613f3cba40eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EndDayButton
-  manager: {fileID: 762724008}
 --- !u!61 &2025598936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7999,6 +8144,110 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2025598937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025598932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 762724008}
+          m_TargetAssemblyTypeName: NPCManager, Assembly-CSharp
+          m_MethodName: EndDay
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &2051649039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051649040}
+  - component: {fileID: 2051649042}
+  - component: {fileID: 2051649041}
+  m_Layer: 5
+  m_Name: TheOldSwitcheroo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2051649040
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051649039}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1155774764}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2051649041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051649039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2051649042
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051649039}
+  m_CullTransparentMesh: 1
 --- !u!1 &2105227854
 GameObject:
   m_ObjectHideFlags: 0
