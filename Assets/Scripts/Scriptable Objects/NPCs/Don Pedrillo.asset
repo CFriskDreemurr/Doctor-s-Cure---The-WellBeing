@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: Don Pedrillo
   NPCSprites:
-  - {fileID: 7024648501981196136, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
-  - {fileID: 293784711, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
-  - {fileID: -1116206487, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
-  - {fileID: -1244846090, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
+  - {fileID: -2346655924233197208, guid: 64b6d28e85472dc4380cdabbe608d68d, type: 3}
+  - {fileID: 6019425538148641346, guid: c469e971c92055643beb5f6cb0f562f7, type: 3}
+  - {fileID: 6056138661896285017, guid: a106b90b08793a843b267bf65b333b66, type: 3}
+  - {fileID: -4244609886920789655, guid: cf1ac65821e6ff940a8e2ddcde7700dc, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: 692895fcf6f3f184eb99287eeb31ab2f, type: 2}
   - {fileID: 11400000, guid: c490bdfa0c293ca48b2d0e62f5f51ef2, type: 2}
