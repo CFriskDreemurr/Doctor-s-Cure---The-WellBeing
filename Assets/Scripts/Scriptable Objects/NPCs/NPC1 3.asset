@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC1 3
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: 'Meow :3 '
+  isAlive: 0
   NPCSprites:
   - {fileID: 531502786, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 1113324022, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
@@ -21,5 +22,5 @@ MonoBehaviour:
   dialogueList:
   - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
   currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
-  currentIllness: {fileID: 11400000, guid: 71ca671557c15f74faec0c9c1686ade0, type: 2}
+  currentIllness: {fileID: 11400000, guid: d5d911b169c54d14abf79246de53a726, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}

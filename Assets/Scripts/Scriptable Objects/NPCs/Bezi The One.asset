@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Bezi The One
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: Bezi The One
+  isAlive: 1
   NPCSprites:
   - {fileID: -854478602, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: -2132607564, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}

@@ -22,5 +22,5 @@ MonoBehaviour:
   dialogueList:
   - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
   currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
-  currentIllness: {fileID: 11400000, guid: c9ca38007e153df40b25c8593fd03be4, type: 2}
+  currentIllness: {fileID: 11400000, guid: 8d262f8184eb31a449217a42174fccd5, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
