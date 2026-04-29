@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{625961dc-1dda-4270-97a2-88f0a97ac629}">
+		<property name="assetPath">
+			<value>654255__221097__woman-humming.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>131</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99e97657-56b9-4a0c-92b2-9b5e06f5ffd8}</destination>
+		</relationship>
+	</object>
+</objects>
