@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ba7e1717-3caa-4c01-b661-7fbf261995f1}">
 		<property name="name">
-			<value>New Event</value>
+			<value>woman_humming</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{422ff477-3775-48f3-9f7f-5317c1ec0ff2}</destination>
@@ -82,7 +82,11 @@
 			<destination>{22a0d621-f896-4ab3-ba9c-5b8081a9ffbf}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{05b02b41-8a7a-4c04-adcd-1d30b195cc1b}" />
+	<object class="MultiSound" id="{05b02b41-8a7a-4c04-adcd-1d30b195cc1b}">
+		<relationship name="sounds">
+			<destination>{47dafd63-5248-4f47-8272-f89e94603af7}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{9c6b294f-e4ce-4310-989f-5965466141d3}">
 		<relationship name="effects">
 			<destination>{11de0e94-553a-42f1-8916-a59f6398b3bf}</destination>
@@ -95,6 +99,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8ce6e36c-c604-4f59-a2ba-4da26b7e9a87}" />
+	<object class="SingleSound" id="{47dafd63-5248-4f47-8272-f89e94603af7}">
+		<relationship name="audioFile">
+			<destination>{625961dc-1dda-4270-97a2-88f0a97ac629}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{11de0e94-553a-42f1-8916-a59f6398b3bf}" />
 	<object class="MixerBusFader" id="{362dec7e-fc04-4267-8e12-87f8dba8afb5}" />
 </objects>
