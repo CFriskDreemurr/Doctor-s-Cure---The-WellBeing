@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Pierre Dole
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: 'Pierre Dole '
+  isAlive: 0
   NPCSprites:
   - {fileID: -709703514, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 31111708, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
@@ -21,5 +22,5 @@ MonoBehaviour:
   dialogueList:
   - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
   currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
-  currentIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
+  currentIllness: {fileID: 11400000, guid: c9ca38007e153df40b25c8593fd03be4, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}

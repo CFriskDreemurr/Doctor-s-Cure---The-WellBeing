@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Don Pedrillo
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: Don Pedrillo
+  isAlive: 0
   NPCSprites:
   - {fileID: 7024648501981196136, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 293784711, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
@@ -31,5 +32,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9e64d9ddea212a248b46dd339adf64ec, type: 2}
   - {fileID: 11400000, guid: d01bda511a650ab40a058191cc7313fa, type: 2}
   currentDialogue: {fileID: 11400000, guid: 692895fcf6f3f184eb99287eeb31ab2f, type: 2}
-  currentIllness: {fileID: 11400000, guid: 46180c185225db343a3b427060b88192, type: 2}
-  diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
+  currentIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
+  diagnosedIllness: {fileID: 11400000, guid: c9ca38007e153df40b25c8593fd03be4, type: 2}

@@ -9,6 +9,8 @@ public class NPC : ScriptableObject
 
     public string NPCName;
 
+    public bool isAlive = true;
+
     public List<Sprite> NPCSprites;
 
     public List<NPCDialogue> dialogueList;

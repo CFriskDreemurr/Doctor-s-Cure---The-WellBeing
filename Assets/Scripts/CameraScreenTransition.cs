@@ -11,15 +11,19 @@ public class CameraScreenTransition : MonoBehaviour
         {
             gameObject.transform.position = new Vector3 (0, 0, -10);
             manager.currentNPC = manager.inQueue;
+            manager.currentScene = 1;
             if (manager.currentNPC != null)
             {
                 Debug.Log(manager.currentNPC.name);
+            }
+            else { 
             }
         }
         else if (screeenNumber == 2)
         {
             gameObject.transform.position = new Vector3(50, 0, -10);
             manager.currentNPC = manager.inEvaluation;
+            manager.currentScene = 2;
             if (manager.currentNPC != null)
             {
                 Debug.Log(manager.currentNPC.name);
@@ -28,11 +32,14 @@ public class CameraScreenTransition : MonoBehaviour
         else if (screeenNumber == 3) 
         {
             gameObject.transform.position = new Vector3(00, -50, -10);
+            manager.currentNPC = null;
+            manager.currentScene = 3;
         }
         else if (screeenNumber == 4)
         {
             gameObject.transform.position = new Vector3(50, -50, -10);
             manager.currentNPC = manager.inOperating;
+            manager.currentScene = 4;
             if (manager.currentNPC != null)
             {
                 Debug.Log(manager.currentNPC.name);

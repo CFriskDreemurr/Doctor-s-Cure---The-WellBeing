@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using UnityEngine;
 
 public class NPCManager : MonoBehaviour
@@ -33,6 +34,7 @@ public class NPCManager : MonoBehaviour
     private NPC temporary;
     public NPC inQueue;
     public NPC currentNPC;
+    public int currentScene;
     
     
 
@@ -49,6 +51,28 @@ public class NPCManager : MonoBehaviour
         infirmarySprite3 = infirmarySpot3.GetComponent<SpriteRenderer>();
         evaluationSprite = evaluationSpot.GetComponent<SpriteRenderer>();
         operatingSprite = operatingSpot.GetComponent<SpriteRenderer>();
+    }
+
+    public void GoAwayCurrent()
+    {
+        if (currentNPC != null)
+        {
+            if (currentScene == 1)
+            {
+                WindowGoAway();
+            }
+            else if (currentScene == 2)
+            {
+                evaluationSprite.sprite = null;
+                inEvaluation = null;
+                currentNPC = null;
+            }
+            else if (currentScene == 4)
+            {
+                OperatingOut();
+            }
+
+        }
     }
     public void OpenJournal()
     {
@@ -71,6 +95,7 @@ public class NPCManager : MonoBehaviour
     {
         endOfDayButton.gameObject.SetActive(false);
         inQueue = null;
+        currentNPC = null;
         windowQueuee.ClearQueue();
         windowQueuee.isEvening = false;
         endOfDayCanvas.gameObject.SetActive(true);
@@ -89,6 +114,7 @@ public class NPCManager : MonoBehaviour
             {
                 windowSprite1.sprite = newNPC.NPCSprites[0];
                 inQueue = newNPC;
+                if (currentScene == 1) {currentNPC = newNPC; }
             }
             else
             {
@@ -108,11 +134,13 @@ public class NPCManager : MonoBehaviour
         {
             windowSprite1.sprite = queueArray[1].NPCSprites[0];
             inQueue = queueArray[1];
+            currentNPC = inQueue;
         }
         else
         {
             windowSprite1.sprite = null;
             inQueue = null;
+            currentNPC = null;
         }
         if (queueArray.Length > 2)
         {
@@ -130,6 +158,7 @@ public class NPCManager : MonoBehaviour
         {
             windowSprite3.sprite = null;
         }
+
         windowQueuee.MoveQueue();
     }
     public void WindowToEvaluation()
@@ -143,11 +172,13 @@ public class NPCManager : MonoBehaviour
             {
                 windowSprite1.sprite = queueArray[1].NPCSprites[0];
                 inQueue = queueArray[1];
+                currentNPC = inQueue;
             }
             else
             {
                 windowSprite1.sprite = null;
                 inQueue = null;
+                currentNPC = null;
             }
             if (queueArray.Length > 2)
             {
@@ -184,6 +215,7 @@ public class NPCManager : MonoBehaviour
                 evaluationSprite.sprite = null;
                 inBed1 = inEvaluation;
                 inEvaluation = null;
+                currentNPC = null;
             }
             else if (inBed2 == null)
             {
@@ -191,6 +223,7 @@ public class NPCManager : MonoBehaviour
                 evaluationSprite.sprite = null;
                 inBed2 = inEvaluation;
                 inEvaluation = null;
+                currentNPC = null;
             }
             else if(inBed3 == null)
             {
@@ -198,6 +231,7 @@ public class NPCManager : MonoBehaviour
                 evaluationSprite.sprite = null;
                 inBed3 = inEvaluation;
                 inEvaluation = null;
+                currentNPC = null;
             }
             else
             {
@@ -245,6 +279,7 @@ public class NPCManager : MonoBehaviour
                 inOperating = null;
                 infirmarySprite1.sprite = inBed1.NPCSprites[2];
                 operatingSprite.sprite = null;
+                currentNPC = null;
             }
             if (bedNumber == 2)
             {
@@ -252,6 +287,7 @@ public class NPCManager : MonoBehaviour
                 inOperating = null;
                 infirmarySprite2.sprite = inBed2.NPCSprites[2];
                 operatingSprite.sprite = null;
+                currentNPC = null;
             }
             if (bedNumber == 3)
             {
@@ -259,6 +295,7 @@ public class NPCManager : MonoBehaviour
                 inOperating = null;
                 infirmarySprite3.sprite = inBed3.NPCSprites[2];
                 operatingSprite.sprite = null;
+                currentNPC = null;
             }
         }
     }
@@ -272,6 +309,7 @@ public class NPCManager : MonoBehaviour
                 inBed1 = null;
                 operatingSprite.sprite = null;
                 infirmarySprite1.sprite = null;
+                currentNPC = null; 
             }
             if (bedNumber == 2)
             {
@@ -279,6 +317,7 @@ public class NPCManager : MonoBehaviour
                 inBed2 = null;
                 operatingSprite.sprite = null;
                 infirmarySprite2.sprite = null;
+                currentNPC = null;
             }
             if (bedNumber == 3)
             {
@@ -286,6 +325,7 @@ public class NPCManager : MonoBehaviour
                 inBed3 = null;
                 operatingSprite.sprite = null;
                 infirmarySprite3.sprite = null;
+                currentNPC = null;
             }
         }
     }
