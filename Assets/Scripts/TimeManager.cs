@@ -13,6 +13,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private NPCManager npcManager;
     [SerializeField] private GameObject endDayCanvas;
     [SerializeField] private CameraScreenTransition cameraa;
+    [SerializeField] private DrugManager drugManager;
     private int daCounter;
     private int dayNr = 0;
 
@@ -35,6 +36,7 @@ public class TimeManager : MonoBehaviour
         daQueue.AddToQueue(todayQueue.dailyQueue[2]);
         daCounter = 3;
         cameraa.isAbleToMove = true;
+        drugManager.UpdateDrugz();
         StartCoroutine(DayCycle());
 
     }

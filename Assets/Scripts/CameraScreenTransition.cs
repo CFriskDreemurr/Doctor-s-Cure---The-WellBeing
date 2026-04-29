@@ -4,15 +4,18 @@ using UnityEngine.InputSystem;
 public class CameraScreenTransition : MonoBehaviour
 {
     public bool isAbleToMove = true;
+    [SerializeField] private NPCManager manager;
     public void MoveToScreen(int screeenNumber)
     {
         if (screeenNumber == 1)
         {
             gameObject.transform.position = new Vector3 (0, 0, -10);
+            manager.currentNPC = manager.inQueue;
         }
         else if (screeenNumber == 2)
         {
             gameObject.transform.position = new Vector3(50, 0, -10);
+            manager.currentNPC = manager.inEvaluation;
         }
         else if (screeenNumber == 3) 
         {
@@ -21,6 +24,7 @@ public class CameraScreenTransition : MonoBehaviour
         else if (screeenNumber == 4)
         {
             gameObject.transform.position = new Vector3(50, -50, -10);
+            manager.currentNPC = manager.inOperating;
         }
         
 

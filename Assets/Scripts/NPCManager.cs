@@ -23,15 +23,16 @@ public class NPCManager : MonoBehaviour
     private SpriteRenderer infirmarySprite2;
     private SpriteRenderer infirmarySprite3;
     private SpriteRenderer operatingSprite;
-    private NPC inEvaluation = null;
-    private NPC inBed1 = null;
-    private NPC inBed2 = null;
-    private NPC inBed3 = null;
-    private NPC inOperating = null;
+    public NPC inEvaluation = null;
+    public NPC inBed1 = null;
+    public NPC inBed2 = null;
+    public NPC inBed3 = null;
+    public NPC inOperating = null;
     [SerializeField] private Sprite bedInUse;
     private int bedNumber;
     private NPC temporary;
     public NPC inQueue;
+    public NPC currentNPC;
     
     
 
