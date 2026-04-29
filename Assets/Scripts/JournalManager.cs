@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,11 @@ public class JournalManager : MonoBehaviour
     [SerializeField] private IllnessButton slot5;
     [SerializeField] private IllnessButton slot6;
     [SerializeField] private CameraScreenTransition cameraa;
+    [SerializeField] private NPCManager manager;
+    [SerializeField] private GameObject bg1;
+    [SerializeField] private TMP_Text bg1name;
+    [SerializeField] private TMP_Text bg1diagnosis;
+    
     private int pgNr = 0;
 
 
@@ -18,6 +24,16 @@ public class JournalManager : MonoBehaviour
     {
         pgNr = 0;
         cameraa.isAbleToMove = false;
+        if (manager.currentNPC == null)
+        {
+            bg1.SetActive(false);
+        }
+        else
+        {
+            bg1.SetActive(true);
+            bg1name.text = manager.currentNPC.name;
+            bg1diagnosis.text = manager.currentNPC.diagnosedIllness.name;
+        }
         NewPage();
     }
     public void NewPage()
@@ -64,8 +80,9 @@ public class JournalManager : MonoBehaviour
         cameraa.isAbleToMove = true;
         gameObject.SetActive(false);
     }
-    public void Tests(int i)
+    public void Diagnose(IllnessButton i)
     {
-        Debug.Log(i);
+        manager.currentNPC.diagnosedIllness = i.currentIllness;
+        bg1diagnosis.text = manager.currentNPC.diagnosedIllness.name;
     }
 }

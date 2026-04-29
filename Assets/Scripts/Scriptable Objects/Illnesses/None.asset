@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439227ceda842b94dbd50c1281c2ffd1, type: 3}
   m_Name: None
   m_EditorClassIdentifier: Assembly-CSharp::Illness
-  illnessName: 
-  cureName: 
+  illnessName: ???
+  cureName: ???

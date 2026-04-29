@@ -36,6 +36,7 @@ public class TimeManager : MonoBehaviour
         daQueue.AddToQueue(todayQueue.dailyQueue[2]);
         daCounter = 3;
         cameraa.isAbleToMove = true;
+        cameraa.MoveToScreen(1);
         drugManager.UpdateDrugz();
         StartCoroutine(DayCycle());
 

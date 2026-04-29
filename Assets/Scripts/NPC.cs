@@ -14,4 +14,7 @@ public class NPC : ScriptableObject
     public List<NPCDialogue> dialogueList;
 
     public NPCDialogue currentDialogue;
+
+    public Illness currentIllness;
+    public Illness diagnosedIllness;
 }

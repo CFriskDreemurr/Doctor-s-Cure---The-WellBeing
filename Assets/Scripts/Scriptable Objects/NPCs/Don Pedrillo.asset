@@ -31,3 +31,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9e64d9ddea212a248b46dd339adf64ec, type: 2}
   - {fileID: 11400000, guid: d01bda511a650ab40a058191cc7313fa, type: 2}
   currentDialogue: {fileID: 11400000, guid: 692895fcf6f3f184eb99287eeb31ab2f, type: 2}
+  currentIllness: {fileID: 11400000, guid: 46180c185225db343a3b427060b88192, type: 2}
+  diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
