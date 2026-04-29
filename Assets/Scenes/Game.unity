@@ -2028,6 +2028,7 @@ MonoBehaviour:
   cycleLenght: 60
   npcManager: {fileID: 762724008}
   endDayCanvas: {fileID: 1953334787}
+  cameraa: {fileID: 0}
 --- !u!1 &538474583
 GameObject:
   m_ObjectHideFlags: 0
@@ -7492,6 +7493,7 @@ MonoBehaviour:
   buttonLText: {fileID: 228795161}
   buttonRText: {fileID: 1233614683}
   progress: {fileID: 11400000, guid: 8d0aa6c5d151ec447af0dc1a1fd4c040, type: 2}
+  cameraa: {fileID: 1850368204}
   currentNPC: {fileID: 0}
   currentDialogue: {fileID: 0}
 --- !u!1 &1757971510
@@ -7761,6 +7763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9c697398937e9448b6310fc99c7785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraScreenTransition
+  isAbleToMove: 1
 --- !u!114 &1850368205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8118,6 +8121,7 @@ MonoBehaviour:
   tb2: {fileID: 1275059213}
   tb3: {fileID: 633760189}
   progress: {fileID: 11400000, guid: 8d0aa6c5d151ec447af0dc1a1fd4c040, type: 2}
+  cameraa: {fileID: 1850368204}
 --- !u!114 &1953334789
 MonoBehaviour:
   m_ObjectHideFlags: 0

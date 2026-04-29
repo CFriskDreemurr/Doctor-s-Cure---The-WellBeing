@@ -10,12 +10,14 @@ public class JournalManager : MonoBehaviour
     [SerializeField] private IllnessButton slot4;
     [SerializeField] private IllnessButton slot5;
     [SerializeField] private IllnessButton slot6;
+    [SerializeField] private CameraScreenTransition cameraa;
     private int pgNr = 0;
 
 
     void OnEnable()
     {
         pgNr = 0;
+        cameraa.isAbleToMove = false;
         NewPage();
     }
     public void NewPage()
@@ -59,6 +61,7 @@ public class JournalManager : MonoBehaviour
     }
     public void Exit()
     {
+        cameraa.isAbleToMove = true;
         gameObject.SetActive(false);
     }
     public void Tests(int i)

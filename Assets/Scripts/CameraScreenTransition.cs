@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CameraScreenTransition : MonoBehaviour
 {
-    bool isAbleToMove = true;
+    public bool isAbleToMove = true;
     public void MoveToScreen(int screeenNumber)
     {
         if (screeenNumber == 1)

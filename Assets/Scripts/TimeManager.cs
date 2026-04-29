@@ -12,6 +12,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private float cycleLenght;
     [SerializeField] private NPCManager npcManager;
     [SerializeField] private GameObject endDayCanvas;
+    [SerializeField] private CameraScreenTransition cameraa;
     private int daCounter;
     private int dayNr = 0;
 
@@ -33,6 +34,7 @@ public class TimeManager : MonoBehaviour
         daQueue.AddToQueue(todayQueue.dailyQueue[1]);
         daQueue.AddToQueue(todayQueue.dailyQueue[2]);
         daCounter = 3;
+        cameraa.isAbleToMove = true;
         StartCoroutine(DayCycle());
 
     }

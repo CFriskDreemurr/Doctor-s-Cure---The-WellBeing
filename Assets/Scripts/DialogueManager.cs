@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TMP_Text buttonLText;
     [SerializeField] private TMP_Text buttonRText;
     [SerializeField] private Progress progress;
+    [SerializeField] private CameraScreenTransition cameraa;
 
     public NPC currentNPC;
     public NPCDialogue currentDialogue;
@@ -17,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     {
         currentNPC = manager.inQueue;
         currentDialogue = currentNPC.currentDialogue;
+        cameraa.isAbleToMove = false;
         NewDialogue();
     }
 
@@ -28,6 +30,7 @@ public class DialogueManager : MonoBehaviour
             progress.suspicion += currentDialogue.susL;
             currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             manager.WindowToEvaluation();
+            cameraa.isAbleToMove = true;
             this.gameObject.SetActive(false);
         }
         else if (currentDialogue.goAwayL)
@@ -36,6 +39,7 @@ public class DialogueManager : MonoBehaviour
             progress.suspicion += currentDialogue.susL;
             currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             manager.WindowGoAway();
+            cameraa.isAbleToMove = true;
             this.gameObject.SetActive(false);
         }
         else
@@ -55,6 +59,7 @@ public class DialogueManager : MonoBehaviour
             progress.suspicion += currentDialogue.susR;
             currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             manager.WindowToEvaluation();
+            cameraa.isAbleToMove = true;
             this.gameObject.SetActive(false);
         }
         else if (currentDialogue.goAwayR)
@@ -63,6 +68,7 @@ public class DialogueManager : MonoBehaviour
             progress.suspicion += currentDialogue.susR;
             currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             manager.WindowGoAway();
+            cameraa.isAbleToMove = true;
             this.gameObject.SetActive(false);
         }
         else
