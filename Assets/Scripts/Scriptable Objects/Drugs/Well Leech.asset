@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Well Leech
   m_EditorClassIdentifier: Assembly-CSharp::Drug
   drugName: Well Leech
-  amount: 0
+  amount: 3

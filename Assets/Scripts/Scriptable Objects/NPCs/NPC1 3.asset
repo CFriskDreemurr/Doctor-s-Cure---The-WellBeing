@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC1 3
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: 'Meow :3 '
-  isAlive: 0
+  isAlive: 1
   NPCSprites:
   - {fileID: 531502786, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 1113324022, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}

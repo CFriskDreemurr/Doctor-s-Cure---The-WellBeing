@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pierre Dole
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: 'Pierre Dole '
-  isAlive: 0
+  isAlive: 1
   NPCSprites:
   - {fileID: -709703514, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
   - {fileID: 31111708, guid: eb9275c503c30d2498dbb84b71a86230, type: 3}
