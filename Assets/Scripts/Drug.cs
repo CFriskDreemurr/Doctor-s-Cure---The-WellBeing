@@ -4,5 +4,5 @@ using UnityEngine;
 public class Drug : ScriptableObject
 {
     public string drugName;
-
+    public int amount;
 }
