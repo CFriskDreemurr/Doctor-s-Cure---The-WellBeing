@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Progress
   m_EditorClassIdentifier: Assembly-CSharp::Progress
   money: 100
-  sickness: 50
-  suspicion: 50
+  sickness: 30
+  suspicion: 70
   hunger: 50

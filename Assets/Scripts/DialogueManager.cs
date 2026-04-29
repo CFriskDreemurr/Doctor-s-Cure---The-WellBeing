@@ -24,26 +24,26 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentDialogue.goInL)
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             progress.sickness += currentDialogue.sickL;
             progress.suspicion += currentDialogue.susL;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             manager.WindowToEvaluation();
             this.gameObject.SetActive(false);
         }
         else if (currentDialogue.goAwayL)
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             progress.sickness += currentDialogue.sickL;
             progress.suspicion += currentDialogue.susL;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             manager.WindowGoAway();
             this.gameObject.SetActive(false);
         }
         else
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
-            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             progress.sickness += currentDialogue.sickL;
             progress.suspicion += currentDialogue.susL;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
+            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueL];
             NewDialogue();
         }
     }
@@ -51,26 +51,26 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentDialogue.goInR)
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             progress.sickness += currentDialogue.sickR;
             progress.suspicion += currentDialogue.susR;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             manager.WindowToEvaluation();
             this.gameObject.SetActive(false);
         }
         else if (currentDialogue.goAwayR)
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             progress.sickness += currentDialogue.sickR;
             progress.suspicion += currentDialogue.susR;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             manager.WindowGoAway();
             this.gameObject.SetActive(false);
         }
         else
         {
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
-            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             progress.sickness += currentDialogue.sickR;
             progress.suspicion += currentDialogue.susR;
+            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
+            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogueR];
             NewDialogue();
         }
     }

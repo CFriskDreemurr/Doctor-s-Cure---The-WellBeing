@@ -22,3 +22,7 @@ MonoBehaviour:
   goAwayR: 0
   goInL: 0
   goInR: 0
+  sickL: -20
+  sickR: -20
+  susL: 20
+  susR: 20
