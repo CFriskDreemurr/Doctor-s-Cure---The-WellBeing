@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Day2Queue
   m_EditorClassIdentifier: Assembly-CSharp::DayQueue
   dailyQueue:
-  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}
-  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}
-  - {fileID: 11400000, guid: cedba77e36daa384d9062cc5eb78c5fb, type: 2}
+  - {fileID: 11400000, guid: f2f76f7d4a06afd4d9b7510031803526, type: 2}
+  - {fileID: 11400000, guid: f2f76f7d4a06afd4d9b7510031803526, type: 2}
+  - {fileID: 11400000, guid: f2f76f7d4a06afd4d9b7510031803526, type: 2}

@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private GameObject endDayCanvas;
     [SerializeField] private CameraScreenTransition cameraa;
     [SerializeField] private DrugManager drugManager;
+    [SerializeField] private Progress progress;
     private int daCounter;
     private int dayNr = 0;
 
@@ -23,7 +25,17 @@ public class TimeManager : MonoBehaviour
     void Start()
     {
         StartDay();
-        
+    }
+
+    public void ResetProgress()
+    {
+        progress.hunger = 50;
+        progress.money = 100;
+        progress.sickness = 50;
+        progress.suspicion = 50;
+        dayNr = 0;
+        SceneManager.LoadScene("MainMenu");
+
     }
     public void StartDay()
     {

@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5722153342227993099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/New Event
-  Guid:
-    Data1: -1166141673
-    Data2: 1275149482
-    Data3: -1082170954
-    Data4: -241886938
-  Banks:
-  - {fileID: -954362955395826836}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-5310131426027955225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,38 +69,11 @@ MonoBehaviour:
   Path: FMOD/doctorgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639130674321085607
+  lastModified: 639130803499708119
   FileSizes:
   - Name: Desktop
-    Value: 3556832
+    Value: 3745280
   Exists: 1
---- !u!114 &-45500789465150844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event 2
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/New Event 2
-  Guid:
-    Data1: -1343478902
-    Data2: 1215802321
-    Data3: -2045758035
-    Data4: 44464884
-  Banks:
-  - {fileID: -954362955395826836}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,31 +91,85 @@ MonoBehaviour:
   - {fileID: -954362955395826836}
   EditorEvents:
   - {fileID: 5935176900983088733}
-  - {fileID: -5722153342227993099}
-  - {fileID: -45500789465150844}
   - {fileID: 5442256820636419901}
   - {fileID: -1844187869330321373}
   - {fileID: -5310131426027955225}
+  - {fileID: 540774835578977666}
+  - {fileID: 399943126042757294}
   EditorParameters: []
   MasterBanks:
   - {fileID: -954362955395826836}
   StringsBanks:
   - {fileID: 4039514374427403888}
   cacheVersion: 131856
-  cacheTime: 639129166882105479
+  cacheTime: 639130803499718145
   SerializableEventsDict:
   - key: event:/events/grab
     index: 0
-  - key: event:/New Event
-    index: 1
-  - key: event:/New Event 2
-    index: 2
   - key: event:/events/turn_page
-    index: 3
+    index: 1
   - key: event:/music/ambient
-    index: 4
+    index: 2
   - key: event:/events/click
+    index: 3
+  - key: event:/woman_humming
+    index: 4
+  - key: event:/woman_chuckles
     index: 5
+--- !u!114 &399943126042757294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/woman_chuckles
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/woman_chuckles
+  Guid:
+    Data1: -1343478902
+    Data2: 1215802321
+    Data3: -2045758035
+    Data4: 44464884
+  Banks:
+  - {fileID: -954362955395826836}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &540774835578977666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/woman_humming
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/woman_humming
+  Guid:
+    Data1: -1166141673
+    Data2: 1275149482
+    Data3: -1082170954
+    Data4: -241886938
+  Banks:
+  - {fileID: -954362955395826836}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4039514374427403888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,10 +185,10 @@ MonoBehaviour:
   Path: FMOD/doctorgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639129166882105479
+  lastModified: 639130803499718145
   FileSizes:
   - Name: Desktop
-    Value: 1000
+    Value: 1012
   Exists: 1
 --- !u!114 &5442256820636419901
 MonoBehaviour:

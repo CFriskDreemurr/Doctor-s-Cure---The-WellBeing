@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb87a09428d337341961f8e60bcc4128, type: 3}
+  m_Name: Sister Bloody Mary
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  NPCName: Sister Bloody Mary
+  isAlive: 1
+  NPCSprites:
+  - {fileID: -4244609886920789655, guid: cf1ac65821e6ff940a8e2ddcde7700dc, type: 3}
+  - {fileID: -7209694247331568404, guid: bb3b97a2ca0e8b545a1ef2b79dd67c53, type: 3}
+  - {fileID: -4244609886920789655, guid: cf1ac65821e6ff940a8e2ddcde7700dc, type: 3}
+  - {fileID: -7209694247331568404, guid: bb3b97a2ca0e8b545a1ef2b79dd67c53, type: 3}
+  dialogueList:
+  - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  currentIllness: {fileID: 11400000, guid: a680d4c4c1200ca49ad98adb45948984, type: 2}
+  diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
