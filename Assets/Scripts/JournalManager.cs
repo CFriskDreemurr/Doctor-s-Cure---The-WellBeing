@@ -16,6 +16,8 @@ public class JournalManager : MonoBehaviour
     [SerializeField] private GameObject bg1;
     [SerializeField] private TMP_Text bg1name;
     [SerializeField] private TMP_Text bg1diagnosis;
+    [SerializeField] private GameObject pageLeft;
+    [SerializeField] private GameObject pageRight;
     
     private int pgNr = 0;
 
@@ -34,10 +36,28 @@ public class JournalManager : MonoBehaviour
             bg1name.text = manager.currentNPC.name;
             bg1diagnosis.text = manager.currentNPC.diagnosedIllness.name;
         }
-        NewPage();
+        NewPage(0);
     }
-    public void NewPage()
+    public void NewPage(int pgChange)
     {
+        pgNr = pgNr+pgChange;
+        if (pgNr > 0)
+        {
+            pageLeft.SetActive(true);
+        }
+        else
+        {
+            pageLeft.SetActive(false);
+        }
+        if (illnessList.illnessList.Count > pgNr * 6 + 6) 
+        { 
+            pageRight.SetActive(true); 
+        }
+        else 
+        {
+            pageRight.SetActive(false); 
+        }
+
         slot1.gameObject.SetActive(false);
         slot2.gameObject.SetActive(false);
         slot3.gameObject.SetActive(false);
