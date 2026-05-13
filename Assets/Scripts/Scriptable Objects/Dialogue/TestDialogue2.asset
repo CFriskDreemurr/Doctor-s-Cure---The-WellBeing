@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a407ee90f9b7498498ad0a58ba00dfc2, type: 3}
+  m_Name: TestDialogue2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  text: Who's that pokemon?!
+  dialogue1: 0
+  dialogue2: 0
+  dialogue3: 0
+  dialogue4: 0
+  option1: uno
+  option2: dos
+  option3: tres
+  option4: yo mom
+  goAway1: 0
+  goAway2: 0
+  goAway3: 0
+  goAway4: 0
+  goIn1: 1
+  goIn2: 1
+  goIn3: 1
+  goIn4: 1
+  sick1: -1
+  sick2: -1
+  sick3: -1
+  sick4: -1
+  sus1: -1
+  sus2: -1
+  sus3: -1
+  sus4: -1
