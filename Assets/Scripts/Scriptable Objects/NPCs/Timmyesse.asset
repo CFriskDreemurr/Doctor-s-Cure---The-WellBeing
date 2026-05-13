@@ -15,7 +15,9 @@ MonoBehaviour:
   NPCName: Timmyesse
   isAlive: 1
   NPCSprites: []
-  dialogueList: []
+  dialogueList:
+  - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
+  - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
   currentDialogue: {fileID: 0}
   currentIllness: {fileID: 0}
   diagnosedIllness: {fileID: 0}

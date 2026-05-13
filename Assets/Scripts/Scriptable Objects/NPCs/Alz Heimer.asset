@@ -20,7 +20,8 @@ MonoBehaviour:
   - {fileID: -9166319068524725324, guid: 065bce8605a801b4bbc9b3608fa7560e, type: 3}
   - {fileID: 6056138661896285017, guid: a106b90b08793a843b267bf65b333b66, type: 3}
   dialogueList:
-  - {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
+  - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
   currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
   currentIllness: {fileID: 11400000, guid: 115d0fbe2d9db6d48b01f228a47b35fd, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 115d0fbe2d9db6d48b01f228a47b35fd, type: 2}
