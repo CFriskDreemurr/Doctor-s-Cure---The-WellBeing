@@ -120,9 +120,9 @@ public class DrugManager : MonoBehaviour
     {
         if (manager.currentNPC != null)
         {
-            if (manager.currentNPC.currentIllness.name == "Uncommon Flu")
+            if (manager.currentNPC.currentIllness.name == "Common Flu")
             {
-                Debug.Log("The Copium cured the Uncommon Flu!");
+                Debug.Log("The Copium cured the Common Flu!");
                 progress.sickness -= 10;
                 progress.suspicion -= 10;
                 manager.currentNPC.currentIllness = noneIllness;
