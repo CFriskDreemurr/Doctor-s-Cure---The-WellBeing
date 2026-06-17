@@ -15,10 +15,10 @@ MonoBehaviour:
   NPCName: Alz Heimer
   isAlive: 1
   NPCSprites:
-  - {fileID: -9166319068524725324, guid: 065bce8605a801b4bbc9b3608fa7560e, type: 3}
-  - {fileID: 6056138661896285017, guid: a106b90b08793a843b267bf65b333b66, type: 3}
-  - {fileID: -9166319068524725324, guid: 065bce8605a801b4bbc9b3608fa7560e, type: 3}
-  - {fileID: 6056138661896285017, guid: a106b90b08793a843b267bf65b333b66, type: 3}
+  - {fileID: 21300000, guid: 873e57b33ba5d7f41854acbd2c82459b, type: 3}
+  - {fileID: 21300000, guid: 873e57b33ba5d7f41854acbd2c82459b, type: 3}
+  - {fileID: 21300000, guid: 873e57b33ba5d7f41854acbd2c82459b, type: 3}
+  - {fileID: 21300000, guid: 873e57b33ba5d7f41854acbd2c82459b, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}

@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: Sheriff Walters
   isAlive: 1
-  NPCSprites: []
+  NPCSprites:
+  - {fileID: 21300000, guid: 9a7b1f5f1d6d21e45954fe5bd6b153a7, type: 3}
+  - {fileID: 21300000, guid: 9a7b1f5f1d6d21e45954fe5bd6b153a7, type: 3}
+  - {fileID: 21300000, guid: 9a7b1f5f1d6d21e45954fe5bd6b153a7, type: 3}
+  - {fileID: 21300000, guid: 9a7b1f5f1d6d21e45954fe5bd6b153a7, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}

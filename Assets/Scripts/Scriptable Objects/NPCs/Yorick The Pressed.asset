@@ -15,10 +15,10 @@ MonoBehaviour:
   NPCName: Yorick The Pressed
   isAlive: 1
   NPCSprites:
-  - {fileID: 6019425538148641346, guid: c469e971c92055643beb5f6cb0f562f7, type: 3}
-  - {fileID: -2346655924233197208, guid: 64b6d28e85472dc4380cdabbe608d68d, type: 3}
-  - {fileID: 6019425538148641346, guid: c469e971c92055643beb5f6cb0f562f7, type: 3}
-  - {fileID: -2346655924233197208, guid: 64b6d28e85472dc4380cdabbe608d68d, type: 3}
+  - {fileID: 21300000, guid: ba36097cdd5112149b8e4417fc5b8435, type: 3}
+  - {fileID: 21300000, guid: ba36097cdd5112149b8e4417fc5b8435, type: 3}
+  - {fileID: 21300000, guid: ba36097cdd5112149b8e4417fc5b8435, type: 3}
+  - {fileID: 21300000, guid: ba36097cdd5112149b8e4417fc5b8435, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}

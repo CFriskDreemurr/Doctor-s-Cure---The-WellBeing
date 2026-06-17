@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   NPCName: Timmyesse
   isAlive: 1
-  NPCSprites: []
+  NPCSprites:
+  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
+  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
+  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
+  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
