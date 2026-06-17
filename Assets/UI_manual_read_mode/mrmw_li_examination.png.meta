@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ba36097cdd5112149b8e4417fc5b8435
+guid: 9dd3d6ddd61521045affa5bca0f071f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -319185257054130488
-    second: pan lopata new_0
+      213: 6872957084325729917
+    second: mrmw_li_examination_0
+  - first:
+      213: -8993394965771918400
+    second: mrmw_li_examination_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pan lopata new_0
+      name: mrmw_li_examination_0
       rect:
         serializedVersion: 2
-        x: 304
-        y: 0
-        width: 720
-        height: 927
+        x: 27
+        y: 20
+        width: 339
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce2fb723b6029bf0800000000000000
-      internalID: -319185257054130488
+      spriteID: d765dbfbd06a16f50800000000000000
+      internalID: 6872957084325729917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrmw_li_examination_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3e06c7dea013380800000000000000
+      internalID: -8993394965771918400
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pan lopata new_0: -319185257054130488
+      mrmw_li_examination_0: 6872957084325729917
+      mrmw_li_examination_1: -8993394965771918400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

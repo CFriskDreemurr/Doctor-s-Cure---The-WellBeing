@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: d78650d055bbf0f47b770b26a2d01216
+guid: 654f5e1089603bb4eab5d7bfc3935518
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -576478097395942035
-    second: zakonnica new_0
+      213: 8317953457116550277
+    second: mrmw_di_FP_0
   - first:
-      213: 3997576607752709434
-    second: zakonnica new_1
+      213: -3149684417408856339
+    second: mrmw_di_FP_1
   - first:
-      213: -5961452987680717528
-    second: zakonnica new_2
+      213: 1679264399140346006
+    second: mrmw_di_FP_2
+  - first:
+      213: -8752606885864604946
+    second: mrmw_di_FP_3
+  - first:
+      213: -4512770894072598164
+    second: mrmw_di_FP_4
+  - first:
+      213: 8167326278813832938
+    second: mrmw_di_FP_5
+  - first:
+      213: 2230627967028827241
+    second: mrmw_di_FP_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,12 +64,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zakonnica new_0
+      name: mrmw_di_FP_0
       rect:
         serializedVersion: 2
-        x: 308
-        y: 0
-        width: 607
-        height: 826
+        x: 172
+        y: 2
+        width: 182
+        height: 343
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6dfbe78930fff7f0800000000000000
-      internalID: -576478097395942035
+      spriteID: 5841aad499e4f6370800000000000000
+      internalID: 8317953457116550277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zakonnica new_1
+      name: mrmw_di_FP_1
       rect:
         serializedVersion: 2
-        x: 636
-        y: 822
-        width: 8
-        height: 6
+        x: 361
+        y: 267
+        width: 52
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a35e283aebe3a7730800000000000000
-      internalID: 3997576607752709434
+      spriteID: dee03c9c5b21a44d0800000000000000
+      internalID: -3149684417408856339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zakonnica new_2
+      name: mrmw_di_FP_2
       rect:
         serializedVersion: 2
-        x: 1009
-        y: 199
-        width: 6
-        height: 6
+        x: 94
+        y: 202
+        width: 58
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +177,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8258914c71aa44da0800000000000000
-      internalID: -5961452987680717528
+      spriteID: 69858bae212fd4710800000000000000
+      internalID: 1679264399140346006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrmw_di_FP_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 218
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaf66d196e788680800000000000000
+      internalID: -8752606885864604946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrmw_di_FP_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 149
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61b41218ca6f51c0800000000000000
+      internalID: -4512770894072598164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrmw_di_FP_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 183
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6596d6afb285170800000000000000
+      internalID: 8167326278813832938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mrmw_di_FP_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 111
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9641ec05158c4fe10800000000000000
+      internalID: 2230627967028827241
       vertices: []
       indices: 
       edges: []
@@ -175,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      zakonnica new_0: -576478097395942035
-      zakonnica new_1: 3997576607752709434
-      zakonnica new_2: -5961452987680717528
+      mrmw_di_FP_0: 8317953457116550277
+      mrmw_di_FP_1: -3149684417408856339
+      mrmw_di_FP_2: 1679264399140346006
+      mrmw_di_FP_3: -8752606885864604946
+      mrmw_di_FP_4: -4512770894072598164
+      mrmw_di_FP_5: 8167326278813832938
+      mrmw_di_FP_6: 2230627967028827241
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

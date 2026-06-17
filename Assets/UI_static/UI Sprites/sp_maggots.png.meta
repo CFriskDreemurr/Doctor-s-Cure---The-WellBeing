@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: ba36097cdd5112149b8e4417fc5b8435
+guid: 4b992f0d224457a42badf3d2d37b33de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -319185257054130488
-    second: pan lopata new_0
+      213: 1686126427344584666
+    second: sp_maggots_0
+  - first:
+      213: 3767555126741028777
+    second: sp_maggots_1
+  - first:
+      213: -5520829608256802907
+    second: sp_maggots_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30000
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pan lopata new_0
+      name: sp_maggots_0
       rect:
         serializedVersion: 2
-        x: 304
-        y: 0
-        width: 720
-        height: 927
+        x: 32
+        y: 169
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ce2fb723b6029bf0800000000000000
-      internalID: -319185257054130488
+      spriteID: adfb54c5d03566710800000000000000
+      internalID: 1686126427344584666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_maggots_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 186
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afc9192d6b094430800000000000000
+      internalID: 3767555126741028777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_maggots_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 169
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe46ec8b21263b0800000000000000
+      internalID: -5520829608256802907
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pan lopata new_0: -319185257054130488
+      sp_maggots_0: 1686126427344584666
+      sp_maggots_1: 3767555126741028777
+      sp_maggots_2: -5520829608256802907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
