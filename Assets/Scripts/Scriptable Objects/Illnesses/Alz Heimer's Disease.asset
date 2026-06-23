@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Alz Heimer's Disease
   cureName: ???
+  sprite: {fileID: 1776950230244685364, guid: 61b1ba6357c9f944e94694d493f5ee6e, type: 3}

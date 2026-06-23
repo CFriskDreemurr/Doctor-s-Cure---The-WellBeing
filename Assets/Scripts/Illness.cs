@@ -5,4 +5,5 @@ public class Illness : ScriptableObject
 {
     public string illnessName;
     public string cureName;
+    public Sprite sprite;
 }

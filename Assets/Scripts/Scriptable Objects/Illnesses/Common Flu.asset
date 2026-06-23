@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Common Flu
   cureName: Herbs x2-4
+  sprite: {fileID: -1552876700902517634, guid: bf8850b6ad5b58944b4a56a23e164fb6, type: 3}

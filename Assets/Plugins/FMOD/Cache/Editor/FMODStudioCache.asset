@@ -69,7 +69,7 @@ MonoBehaviour:
   Path: FMOD/doctorgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639130803499708119
+  lastModified: 639178059764991829
   FileSizes:
   - Name: Desktop
     Value: 3745280
@@ -102,7 +102,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 4039514374427403888}
   cacheVersion: 131856
-  cacheTime: 639130803499718145
+  cacheTime: 639178059764991829
   SerializableEventsDict:
   - key: event:/events/grab
     index: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   Path: FMOD/doctorgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639130803499718145
+  lastModified: 639178059764991829
   FileSizes:
   - Name: Desktop
     Value: 1012

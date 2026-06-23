@@ -1,3 +1,4 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 using UnityEngine;
 
@@ -5,11 +6,13 @@ public class IllnessButton : MonoBehaviour
 {
     public Illness currentIllness;
     [SerializeField] private TMP_Text illnessName;
-    [SerializeField] private TMP_Text cureName;
+    [SerializeField] private Image img;
     public void NewIllness(Illness i)
     {
         currentIllness = i;
-        illnessName.text = currentIllness.illnessName;
-        cureName.text = currentIllness.cureName;
+        if (i.sprite != null)
+        {
+            img.Equals(i.sprite);
+        }
+        }
     }
-}
