@@ -21,10 +21,12 @@ MonoBehaviour:
   - {fileID: 3327558380681632350, guid: 735f176c4c7a30945a51d039b48f4016, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
-  - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
-  currentDialogue: {fileID: 0}
-  dialogueList2: []
-  currentDialogue2: {fileID: 0}
+  - {fileID: 11400000, guid: d9bccf082ed753f4283db83c9e1c3bc3, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 51054e51d7aaf0b478e74240496c567e, type: 2}
+  dialogueList2:
+  - {fileID: 11400000, guid: 7d0a27e0353b36e46a186763fdd497dd, type: 2}
+  - {fileID: 11400000, guid: 000c8f7ac82f19247bd67bf1f1ccad08, type: 2}
+  currentDialogue2: {fileID: 11400000, guid: 7d0a27e0353b36e46a186763fdd497dd, type: 2}
   currentIllness: {fileID: 0}
   diagnosedIllness: {fileID: 0}
   isCured: 0

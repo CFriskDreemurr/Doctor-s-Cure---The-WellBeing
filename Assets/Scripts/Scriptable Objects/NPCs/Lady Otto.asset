@@ -20,11 +20,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6d29c1f597eff044595e03eb7741c26d, type: 3}
   - {fileID: 21300000, guid: 735f176c4c7a30945a51d039b48f4016, type: 3}
   dialogueList:
-  - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
-  - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
-  currentDialogue: {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
-  dialogueList2: []
-  currentDialogue2: {fileID: 0}
+  - {fileID: 11400000, guid: 51054e51d7aaf0b478e74240496c567e, type: 2}
+  - {fileID: 11400000, guid: d9bccf082ed753f4283db83c9e1c3bc3, type: 2}
+  currentDialogue: {fileID: 11400000, guid: 51054e51d7aaf0b478e74240496c567e, type: 2}
+  dialogueList2:
+  - {fileID: 11400000, guid: 7d0a27e0353b36e46a186763fdd497dd, type: 2}
+  - {fileID: 11400000, guid: 000c8f7ac82f19247bd67bf1f1ccad08, type: 2}
+  currentDialogue2: {fileID: 11400000, guid: 7d0a27e0353b36e46a186763fdd497dd, type: 2}
   currentIllness: {fileID: 11400000, guid: 20fff4bf7c7479f49a1b779d6132d536, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: d0f544fbef6de7942a2a8c7f11b1d3f6, type: 2}
   isCured: 0

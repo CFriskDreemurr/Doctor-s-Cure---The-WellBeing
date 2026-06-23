@@ -90,93 +90,144 @@ public class DialogueManager : MonoBehaviour
     }
     public void OnClick2()
     {
-        if (currentDialogue.goIn2 && manager.currentScene==1)
+        if (manager.currentScene == 1)
         {
-            progress.sickness += currentDialogue.sick2;
-            progress.suspicion += currentDialogue.sus2;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
-            manager.WindowToEvaluation();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
+            if (currentDialogue.goIn2 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick2;
+                progress.suspicion += currentDialogue.sus2;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
+                manager.WindowToEvaluation();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else if (currentDialogue.goAway2 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick2;
+                progress.suspicion += currentDialogue.sus2;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
+                manager.WindowGoAway();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                progress.sickness += currentDialogue.sick2;
+                progress.suspicion += currentDialogue.sus2;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
+                currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
+                NewDialogue();
+            }
         }
-        else if (currentDialogue.goAway2 && manager.currentScene == 1)
+        else if (manager.currentScene == 2)
         {
             progress.sickness += currentDialogue.sick2;
             progress.suspicion += currentDialogue.sus2;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
-            manager.WindowGoAway();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            progress.sickness += currentDialogue.sick2;
-            progress.suspicion += currentDialogue.sus2;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
-            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue2];
-            NewDialogue();
+            currentNPC.currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue2];
+            currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue2];
+            if (currentDialogue.goAway2)
+            {
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else { NewDialogue(); }
+
         }
     }
-    public void OnClick3()
+        public void OnClick3()
     {
-        if (currentDialogue.goIn3 && manager.currentScene==1)
+        if (manager.currentScene == 1)
         {
-            progress.sickness += currentDialogue.sick3;
-            progress.suspicion += currentDialogue.sus3;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
-            manager.WindowToEvaluation();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
+            if (currentDialogue.goIn3 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick3;
+                progress.suspicion += currentDialogue.sus3;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
+                manager.WindowToEvaluation();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else if (currentDialogue.goAway3 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick3;
+                progress.suspicion += currentDialogue.sus3;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
+                manager.WindowGoAway();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                progress.sickness += currentDialogue.sick3;
+                progress.suspicion += currentDialogue.sus3;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
+                currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
+                NewDialogue();
+            }
         }
-        else if (currentDialogue.goAway3 && manager.currentScene == 1)
+        else if (manager.currentScene == 2)
         {
             progress.sickness += currentDialogue.sick3;
             progress.suspicion += currentDialogue.sus3;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
-            manager.WindowGoAway();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            progress.sickness += currentDialogue.sick3;
-            progress.suspicion += currentDialogue.sus3;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
-            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue3];
-            NewDialogue();
+            currentNPC.currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue3];
+            currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue3];
+            if (currentDialogue.goAway3)
+            {
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else { NewDialogue(); }
+
         }
     }
     public void OnClick4()
     {
-        if (currentDialogue.goIn4 && manager.currentScene==1)
+        if (manager.currentScene == 1)
         {
-            progress.sickness += currentDialogue.sick4;
-            progress.suspicion += currentDialogue.sus4;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
-            manager.WindowToEvaluation();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
+            if (currentDialogue.goIn4 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick4;
+                progress.suspicion += currentDialogue.sus4;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
+                manager.WindowToEvaluation();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else if (currentDialogue.goAway4 && manager.currentScene == 1)
+            {
+                progress.sickness += currentDialogue.sick4;
+                progress.suspicion += currentDialogue.sus4;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
+                manager.WindowGoAway();
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                progress.sickness += currentDialogue.sick4;
+                progress.suspicion += currentDialogue.sus4;
+                currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
+                currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
+                NewDialogue();
+            }
         }
-        else if (currentDialogue.goAway4 && manager.currentScene == 1)
+        else if (manager.currentScene == 2)
         {
             progress.sickness += currentDialogue.sick4;
             progress.suspicion += currentDialogue.sus4;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
-            manager.WindowGoAway();
-            cameraa.isAbleToMove = true;
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            progress.sickness += currentDialogue.sick4;
-            progress.suspicion += currentDialogue.sus4;
-            currentNPC.currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
-            currentDialogue = currentNPC.dialogueList[currentDialogue.dialogue4];
-            NewDialogue();
+            currentNPC.currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue4];
+            currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue4];
+            if (currentDialogue.goAway4)
+            {
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else { NewDialogue(); }
+
         }
     }
 
-    
+
     public void NewDialogue()
     {
         DialogueText.text = currentDialogue.text;

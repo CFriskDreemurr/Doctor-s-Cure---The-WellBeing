@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a407ee90f9b7498498ad0a58ba00dfc2, type: 3}
+  m_Name: NPCDialogue 2
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  text: Everything Hurts!
+  dialogue1: 0
+  dialogue2: 1
+  dialogue3: 0
+  dialogue4: 1
+  option1: ye, I know
+  option2: what are the symptoms?
+  option3: Shut up!
+  option4: ...
+  goAway1: 0
+  goAway2: 0
+  goAway3: 1
+  goAway4: 0
+  goIn1: 0
+  goIn2: 0
+  goIn3: 0
+  goIn4: 0
+  sick1: 0
+  sick2: 0
+  sick3: 0
+  sick4: 0
+  sus1: 0
+  sus2: 0
+  sus3: 0
+  sus4: 0
