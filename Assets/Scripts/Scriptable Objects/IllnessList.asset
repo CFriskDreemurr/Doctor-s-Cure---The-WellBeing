@@ -15,13 +15,11 @@ MonoBehaviour:
   illnessList:
   - {fileID: 11400000, guid: 115d0fbe2d9db6d48b01f228a47b35fd, type: 2}
   - {fileID: 11400000, guid: 71ca671557c15f74faec0c9c1686ade0, type: 2}
-  - {fileID: 11400000, guid: 0d44f95c6eb3d694b8c327459b544523, type: 2}
   - {fileID: 11400000, guid: 15ea6981034de1344bde7fa2bcb8d010, type: 2}
-  - {fileID: 11400000, guid: d0f544fbef6de7942a2a8c7f11b1d3f6, type: 2}
   - {fileID: 11400000, guid: 3872982d11cbda141b34ef87f719b613, type: 2}
-  - {fileID: 11400000, guid: 20fff4bf7c7479f49a1b779d6132d536, type: 2}
   - {fileID: 11400000, guid: 4868feb7aa4fb304f9422338797460f0, type: 2}
-  - {fileID: 11400000, guid: 33a3be45cbd334d4a9f035f77fa7f1c6, type: 2}
   - {fileID: 11400000, guid: a680d4c4c1200ca49ad98adb45948984, type: 2}
-  - {fileID: 11400000, guid: 5050b7c0479fa97479c3e4ca6f9058a9, type: 2}
-  - {fileID: 11400000, guid: 9618d3c135783274090ed84bd41da4b6, type: 2}
+  - {fileID: 11400000, guid: 0d44f95c6eb3d694b8c327459b544523, type: 2}
+  - {fileID: 11400000, guid: 33a3be45cbd334d4a9f035f77fa7f1c6, type: 2}
+  - {fileID: 11400000, guid: 20fff4bf7c7479f49a1b779d6132d536, type: 2}
+  - {fileID: 11400000, guid: d0f544fbef6de7942a2a8c7f11b1d3f6, type: 2}

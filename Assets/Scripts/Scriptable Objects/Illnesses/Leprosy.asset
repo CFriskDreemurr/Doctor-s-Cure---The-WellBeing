@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Leprosy
   cureName: 'Quarantine + Poison x1 '
+  sprite: {fileID: -1814484101545433266, guid: 1de2bf61de859684eb68f128b686927a, type: 3}

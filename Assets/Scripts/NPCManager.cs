@@ -248,19 +248,19 @@ public class NPCManager : MonoBehaviour
             if (bedNumber == 1 && inBed1!= null)
             {
                 inOperating = inBed1;
-                infirmarySprite1.sprite = bedInUse;
+                infirmarySprite1.sprite = null;
                 operatingSprite.sprite = inOperating.NPCSprites[3];
             }
             else if (bedNumber == 2 && inBed2 != null)
             {
                 inOperating = inBed2;
-                infirmarySprite2.sprite = bedInUse;
+                infirmarySprite2.sprite = null;
                 operatingSprite.sprite = inOperating.NPCSprites[3];
             }
             else if (bedNumber == 3 && inBed3 != null)
             {
                 inOperating = inBed3;
-                infirmarySprite3.sprite = bedInUse;
+                infirmarySprite3.sprite = null;
                 operatingSprite.sprite = inOperating.NPCSprites[3];
             }
         }

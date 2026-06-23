@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Sepsis
   cureName: Bloodletting + Leeches x5
+  sprite: {fileID: 4381539017282309730, guid: 418c4e03e61c8614492645f918c944b0, type: 3}

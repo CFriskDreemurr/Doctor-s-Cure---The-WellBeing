@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Gangrene
   cureName: Amputate
+  sprite: {fileID: 2092479216605850888, guid: 9079b3dc8174f0a44bd35070952d8ec6, type: 3}

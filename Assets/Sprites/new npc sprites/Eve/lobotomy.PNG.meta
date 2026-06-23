@@ -1,16 +1,28 @@
 fileFormatVersion: 2
-guid: bd747628dfd57b141afb8922dd0dbdcb
+guid: 7037c5666f14b094b8070817f1e9bdc2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7283194086860054756
-    second: mrmw_ti_bandages_0
+      213: -6658667383527226031
+    second: lobotomy_0
   - first:
-      213: 2005837382134934212
-    second: mrmw_ti_bandages_1
+      213: 7147555948021785375
+    second: lobotomy_1
   - first:
-      213: 988824813514586583
-    second: mrmw_ti_bandages_2
+      213: -8770674172254650829
+    second: lobotomy_2
+  - first:
+      213: -5577976252525898926
+    second: lobotomy_3
+  - first:
+      213: 4911269812686657547
+    second: lobotomy_4
+  - first:
+      213: -3937667697572346365
+    second: lobotomy_5
+  - first:
+      213: -8517683389857466645
+    second: lobotomy_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mrmw_ti_bandages_0
+      name: lobotomy_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 285
-        width: 81
-        height: 105
+        x: 639
+        y: 1084
+        width: 20
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1f1b76e095ecea90800000000000000
-      internalID: -7283194086860054756
+      spriteID: 15541673b49a793a0800000000000000
+      internalID: -6658667383527226031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mrmw_ti_bandages_1
+      name: lobotomy_1
       rect:
         serializedVersion: 2
-        x: 102
-        y: 27
-        width: 300
-        height: 314
+        x: 694
+        y: 1044
+        width: 13
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ca2a5fb87a26db10800000000000000
-      internalID: 2005837382134934212
+      spriteID: f13a11ee348313360800000000000000
+      internalID: 7147555948021785375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mrmw_ti_bandages_2
+      name: lobotomy_2
       rect:
         serializedVersion: 2
-        x: 225
-        y: 336
-        width: 10
-        height: 7
+        x: 703
+        y: 34
+        width: 635
+        height: 2004
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +177,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d9f0aacde209bd00800000000000000
-      internalID: 988824813514586583
+      spriteID: 33e71123f4e484680800000000000000
+      internalID: -8770674172254650829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobotomy_3
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1084
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25311a6d62c0792b0800000000000000
+      internalID: -5577976252525898926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobotomy_4
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1052
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b089945afd5582440800000000000000
+      internalID: 4911269812686657547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobotomy_5
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1032
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3068baa77189a59c0800000000000000
+      internalID: -3937667697572346365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobotomy_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 969
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6fc46e51c1bc980800000000000000
+      internalID: -8517683389857466645
       vertices: []
       indices: 
       edges: []
@@ -175,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mrmw_ti_bandages_0: -7283194086860054756
-      mrmw_ti_bandages_1: 2005837382134934212
-      mrmw_ti_bandages_2: 988824813514586583
+      lobotomy_0: -6658667383527226031
+      lobotomy_1: 7147555948021785375
+      lobotomy_2: -8770674172254650829
+      lobotomy_3: -5577976252525898926
+      lobotomy_4: 4911269812686657547
+      lobotomy_5: -3937667697572346365
+      lobotomy_6: -8517683389857466645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

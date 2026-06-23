@@ -15,13 +15,15 @@ MonoBehaviour:
   NPCName: Lady Otto
   isAlive: 1
   NPCSprites:
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
+  - {fileID: 4494037018409170672, guid: 5e1c71fa86e25cd4f8962d69252d6cba, type: 3}
+  - {fileID: 2818591267084412661, guid: 37de39eb0fe9b1e4ba0255a8ddec1f06, type: 3}
+  - {fileID: 21300000, guid: 6d29c1f597eff044595e03eb7741c26d, type: 3}
+  - {fileID: 3327558380681632350, guid: 735f176c4c7a30945a51d039b48f4016, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
   currentDialogue: {fileID: 11400000, guid: 907ed53da2786284fbe2f1dfa3824f9c, type: 2}
+  dialogueList2: []
+  currentDialogue2: {fileID: 0}
   currentIllness: {fileID: 11400000, guid: 20fff4bf7c7479f49a1b779d6132d536, type: 2}
-  diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
+  diagnosedIllness: {fileID: 11400000, guid: d0f544fbef6de7942a2a8c7f11b1d3f6, type: 2}

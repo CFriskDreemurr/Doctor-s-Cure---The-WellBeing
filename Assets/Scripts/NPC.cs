@@ -23,4 +23,6 @@ public class NPC : ScriptableObject
 
     public Illness currentIllness;
     public Illness diagnosedIllness;
+
+    public bool isCured = false;
 }

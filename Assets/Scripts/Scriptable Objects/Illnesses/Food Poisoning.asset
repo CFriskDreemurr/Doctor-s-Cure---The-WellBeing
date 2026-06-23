@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Food Poisoning
   cureName: Herbs x1-3
+  sprite: {fileID: -3837523495356501126, guid: 5a05861cee12d924089951041fb82db5, type: 3}

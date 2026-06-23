@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: The Plague
   cureName: Quarantine + Leeches x4/day
+  sprite: {fileID: -9134059305030001044, guid: a59972e59355e1d4fafcb02191afdc50, type: 3}

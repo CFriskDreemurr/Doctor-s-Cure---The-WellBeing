@@ -79,7 +79,13 @@ public class DialogueManager : MonoBehaviour
             progress.suspicion += currentDialogue.sus1;
             currentNPC.currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue1];
             currentDialogue = currentNPC.dialogueList2[currentDialogue.dialogue1];
-            NewDialogue();
+            if (currentDialogue.goAway1)
+            {
+                cameraa.isAbleToMove = true;
+                this.gameObject.SetActive(false);
+            }
+            else { NewDialogue(); }
+            
         }
     }
     public void OnClick2()

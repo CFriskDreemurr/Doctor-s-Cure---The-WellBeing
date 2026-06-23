@@ -16,12 +16,14 @@ MonoBehaviour:
   isAlive: 1
   NPCSprites:
   - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
-  - {fileID: 21300000, guid: c28764964d856eb469bbade3c8ce9e56, type: 3}
+  - {fileID: 3327558380681632350, guid: 83577e4fe2d2b8f42aee347b7840efcd, type: 3}
+  - {fileID: 21300000, guid: 9e494f8fa6018a44aaba571ec13ee4f7, type: 3}
+  - {fileID: 3327558380681632350, guid: 83577e4fe2d2b8f42aee347b7840efcd, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
   currentDialogue: {fileID: 0}
+  dialogueList2: []
+  currentDialogue2: {fileID: 0}
   currentIllness: {fileID: 0}
   diagnosedIllness: {fileID: 0}

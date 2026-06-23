@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Pain
   cureName: Opium x1-4
+  sprite: {fileID: -3355972035774371309, guid: a3ce012a3f9f8de4db83eb08a6e2f14d, type: 3}

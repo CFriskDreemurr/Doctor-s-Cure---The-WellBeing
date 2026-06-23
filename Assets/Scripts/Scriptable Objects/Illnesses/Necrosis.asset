@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Necrosis
   cureName: Amputate
+  sprite: {fileID: -9021470683123117353, guid: 5ae64011c268f2e40914bd2230b927c2, type: 3}

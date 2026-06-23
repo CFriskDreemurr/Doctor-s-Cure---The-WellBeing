@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: bd747628dfd57b141afb8922dd0dbdcb
+guid: 95d89b033c212b04b9087c8cfc723e46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7283194086860054756
-    second: mrmw_ti_bandages_0
-  - first:
-      213: 2005837382134934212
-    second: mrmw_ti_bandages_1
-  - first:
-      213: 988824813514586583
-    second: mrmw_ti_bandages_2
+      213: -4836853725822790816
+    second: ci_av_empty_bed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mrmw_ti_bandages_0
+      name: ci_av_empty_bed_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 285
-        width: 81
-        height: 105
+        x: 90
+        y: 78
+        width: 333
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1f1b76e095ecea90800000000000000
-      internalID: -7283194086860054756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mrmw_ti_bandages_1
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 27
-        width: 300
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ca2a5fb87a26db10800000000000000
-      internalID: 2005837382134934212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mrmw_ti_bandages_2
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 336
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9f0aacde209bd00800000000000000
-      internalID: 988824813514586583
+      spriteID: 063dec1c92b00ecb0800000000000000
+      internalID: -4836853725822790816
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mrmw_ti_bandages_0: -7283194086860054756
-      mrmw_ti_bandages_1: 2005837382134934212
-      mrmw_ti_bandages_2: 988824813514586583
+      ci_av_empty_bed_0: -4836853725822790816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

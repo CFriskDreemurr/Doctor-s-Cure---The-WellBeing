@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: Smallpox
   cureName: Red Cure + Herbs x2
+  sprite: {fileID: 5933859865178356461, guid: 15c866798192d88438acc2d0a541afb7, type: 3}

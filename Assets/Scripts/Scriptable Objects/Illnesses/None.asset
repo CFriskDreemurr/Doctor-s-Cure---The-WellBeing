@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Illness
   illnessName: ???
   cureName: ???
+  sprite: {fileID: -6935078725692816919, guid: c215127373b34df46b90c23714322122, type: 3}
