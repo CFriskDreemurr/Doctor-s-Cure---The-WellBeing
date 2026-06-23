@@ -18,7 +18,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 82a6bc3c29ed51f48b536f8a1c805c9c, type: 3}
   - {fileID: 21300000, guid: 35c7f6d14f5361440b87da433a4d90da, type: 3}
   - {fileID: 21300000, guid: fa5d93e6adb89f945abd6f363bf943f0, type: 3}
-  - {fileID: 21300000, guid: c589d0d1e23f4fe4f8a5ebf8af32eed0, type: 3}
+  - {fileID: 21300000, guid: 83577e4fe2d2b8f42aee347b7840efcd, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: 51054e51d7aaf0b478e74240496c567e, type: 2}
   - {fileID: 11400000, guid: d9bccf082ed753f4283db83c9e1c3bc3, type: 2}
@@ -30,5 +30,5 @@ MonoBehaviour:
   currentIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
   isCured: 0
-  isDyng: 1
+  isDyng: 0
   m: 1
