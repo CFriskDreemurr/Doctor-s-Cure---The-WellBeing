@@ -2,7 +2,7 @@
 - Project name: Doctor-s-Cure---The-WellBeing
 - Unity version: Unity 6000.4.0f1
 - Active game object:
-  - Name: Textbox1
+  - Name: DialogueCanvas
   - Tag: Untagged
   - Layer: UI
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
