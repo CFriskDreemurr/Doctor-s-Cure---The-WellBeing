@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 53f36033eee898f4f9de3a0aa3554f86
+guid: c589d0d1e23f4fe4f8a5ebf8af32eed0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 314233276479834060
-    second: lobotomia_0
+      213: -6658667383527226031
+    second: lobotomy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lobotomia_0
+      name: lobotomy_0
       rect:
         serializedVersion: 2
         x: 715
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc7003500816c5400800000000000000
-      internalID: 314233276479834060
+      spriteID: 15541673b49a793a0800000000000000
+      internalID: -6658667383527226031
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lobotomia_0: 314233276479834060
+      lobotomy_0: -6658667383527226031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -40,7 +40,12 @@ public class NPCManager : MonoBehaviour
 
 
 
-
+    public void SetCurrentNPC(int i)
+    {
+        if (i == 1) { currentNPC = inBed1; }
+        else if (i == 2) { currentNPC = inBed2; }
+        else if (i == 3) { currentNPC = inBed3; }
+    }
     private void Awake()
     {
         windowSprite1 = windowSpot1.GetComponent<SpriteRenderer>();

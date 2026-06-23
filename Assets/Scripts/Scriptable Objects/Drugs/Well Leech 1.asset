@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7cd34926e46c95438a760fee448f400, type: 3}
   m_Name: Well Leech 1
   m_EditorClassIdentifier: Assembly-CSharp::Drug
-  drugName: Well Leech
-  amount: 3
+  drugName: Nope
+  amount: 69420
