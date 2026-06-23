@@ -16,16 +16,17 @@ MonoBehaviour:
   isAlive: 1
   NPCSprites:
   - {fileID: 21300000, guid: 82a6bc3c29ed51f48b536f8a1c805c9c, type: 3}
-  - {fileID: 1443682057098440354, guid: 35c7f6d14f5361440b87da433a4d90da, type: 3}
+  - {fileID: 21300000, guid: 35c7f6d14f5361440b87da433a4d90da, type: 3}
   - {fileID: 21300000, guid: fa5d93e6adb89f945abd6f363bf943f0, type: 3}
-  - {fileID: 3327558380681632350, guid: 83577e4fe2d2b8f42aee347b7840efcd, type: 3}
+  - {fileID: 21300000, guid: 83577e4fe2d2b8f42aee347b7840efcd, type: 3}
   dialogueList:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
-  currentDialogue: {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
+  currentDialogue: {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   dialogueList2:
   - {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   - {fileID: 11400000, guid: 070a43bd642ae034c9d6ac81735f906a, type: 2}
   currentDialogue2: {fileID: 11400000, guid: ea4dc02f34d88194b963592ccfce6d63, type: 2}
   currentIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
   diagnosedIllness: {fileID: 11400000, guid: 6d68d983705a88b42aadb3110988105f, type: 2}
+  isCured: 0

@@ -23,7 +23,7 @@ public class NPCManager : MonoBehaviour
     private SpriteRenderer infirmarySprite1;
     private SpriteRenderer infirmarySprite2;
     private SpriteRenderer infirmarySprite3;
-    private SpriteRenderer operatingSprite;
+    public SpriteRenderer operatingSprite;
     public NPC inEvaluation = null;
     public NPC inBed1 = null;
     public NPC inBed2 = null;
